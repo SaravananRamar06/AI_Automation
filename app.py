@@ -122,10 +122,12 @@ def load_sample(which=DEMOS[0]):
         run_analysis(pd.read_csv(SAMPLE / "attendance.csv"), pd.read_csv(SAMPLE / "marks.csv"),
                      pd.read_csv(SAMPLE / "timetable.csv"))
         ss.cleaning_log = []
+    ss.data_source = which.split(" (")[0]
 
 
-if "students" not in ss and st.query_params.get("roll"):
-    load_sample()  # booking links from emails open straight into the app with data ready
+if "students" not in ss:
+    # First visit: show the Full demo straight away so every page has data (upload your own any time).
+    load_sample(DEMOS[1] if (FULL_DEMO / "attendance.csv").exists() else DEMOS[0])
 
 has_data = "students" in ss
 
@@ -138,6 +140,10 @@ with st.sidebar:
                 f'<div class="ag-tag">AI attendance & performance risk automation · threshold {THRESHOLD:g}%</div>',
                 unsafe_allow_html=True)
     page = st.radio("Go to", PAGES, index=default_page, label_visibility="collapsed")
+    if "students" in ss:
+        st.markdown(f'<div class="ag-int"><span>📂 Data</span><span><span class="ag-dot" style="background:#22D3EE">'
+                    f'</span>{html.escape(ss.get("data_source", "Demo"))}</span></div>', unsafe_allow_html=True)
+        st.caption(f"{len(ss.students)} students · switch datasets or upload your own on the Upload page")
     st.divider()
     st.markdown("**Integrations**")
     for label, mode in (("🤖 AI", ai.engine_name()), ("✉️ Email", notify.email_mode()), ("📞 Calls", notify.call_mode())):
@@ -179,6 +185,7 @@ if page == PAGES[0]:
             run_analysis(risk.read_table(f_att), risk.read_table(f_marks) if f_marks else None,
                          risk.read_table(f_tt) if f_tt else pd.read_csv(SAMPLE / "timetable.csv"))
             ss.cleaning_log = []
+            ss.data_source = f"Upload: {f_att.name}"
             st.success("Analysis complete.")
         except Exception as e:
             st.error(f"Could not process files: {e}")
