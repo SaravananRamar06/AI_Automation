@@ -15,6 +15,31 @@ SAMPLE = Path(__file__).parent / "data" / "sample"
 STATUS_COLORS = {"CRITICAL": "#d62728", "WARNING": "#ff9f1c", "SAFE": "#2ca02c"}
 ss = st.session_state
 
+st.markdown("""
+<style>
+.block-container {padding-top: 2rem; max-width: 1300px;}
+h1, h2, h3 {letter-spacing: -0.02em;}
+[data-testid="stMetric"] {background: #fff; border: 1px solid #E5E7EB; border-radius: 14px;
+  padding: 14px 18px; box-shadow: 0 1px 2px rgba(16,24,40,.05);}
+[data-testid="stMetricLabel"] {color: #6B7280; font-weight: 500;}
+[data-testid="stSidebar"] {background: #111827;}
+[data-testid="stSidebar"] * {color: #E5E7EB !important;}
+[data-testid="stSidebar"] code {background: #1F2937; color: #A5B4FC !important;}
+[data-testid="stPlotlyChart"], [data-testid="stDataFrame"] {background: #fff; border: 1px solid #E5E7EB;
+  border-radius: 14px; padding: 6px;}
+.stButton > button {border-radius: 10px; font-weight: 600;}
+</style>
+""", unsafe_allow_html=True)
+
+
+def show_df(df, hide_index=False, column_config=None):
+    """st.dataframe, falling back to plain HTML where pyarrow can't load (e.g. locked-down Windows)."""
+    try:
+        import pyarrow  # noqa: F401
+        st.dataframe(df, hide_index=hide_index, column_config=column_config)
+    except ImportError:
+        st.markdown(df.to_html(index=not hide_index, border=0), unsafe_allow_html=True)
+
 
 # ---------------- data loading ----------------
 
@@ -127,12 +152,12 @@ elif page == PAGES[1]:
                                title="Attendance vs latest marks (bubble = risk)"))
 
     st.subheader("🔥 Most at-risk students")
-    st.dataframe(s[s.at_risk][["roll_no", "name", "department", "overall_pct", "worst_pct", "max_need",
+    show_df(s[s.at_risk][["roll_no", "name", "department", "overall_pct", "worst_pct", "max_need",
                                "below_85", "weak_in", "falling_in", "risk"]].head(15), hide_index=True,
                  column_config={"risk": st.column_config.ProgressColumn("risk", min_value=0, max_value=100, format="%d"),
                                 "max_need": st.column_config.NumberColumn("classes needed in a row")})
     st.subheader("🏫 Department summary")
-    st.dataframe(risk.department_summary(s), hide_index=True)
+    show_df(risk.department_summary(s), hide_index=True)
 
 elif page == PAGES[2]:
     st.header("🚨 At-risk students (most at-risk first)")
@@ -150,7 +175,7 @@ elif page == PAGES[2]:
     if marks_only:
         mask |= (view.weak_in != "") | (view.falling_in != "")
     view = view[mask]
-    st.dataframe(view[["roll_no", "name", "department", "status", "overall_pct", "worst_pct", "below_85",
+    show_df(view[["roll_no", "name", "department", "status", "overall_pct", "worst_pct", "below_85",
                        "max_need", "near_85", "weak_in", "falling_in", "risk"]], hide_index=True,
                  column_config={"risk": st.column_config.ProgressColumn("risk", min_value=0, max_value=100, format="%d"),
                                 "max_need": st.column_config.NumberColumn("attend N in a row")})
@@ -160,7 +185,7 @@ elif page == PAGES[2]:
         pick = st.selectbox("Student", view.roll_no + " · " + view.name)
         roll = pick.split(" · ")[0]
         rows = subj[subj.roll_no == roll]
-        st.dataframe(rows[["subject", "classes_held", "classes_attended", "att_pct", "status", "need_in_row",
+        show_df(rows[["subject", "classes_held", "classes_attended", "att_pct", "status", "need_in_row",
                            "can_miss", "scores", "weak", "falling", "teacher"]], hide_index=True,
                      column_config={"need_in_row": "attend N in a row to reach 85%",
                                     "can_miss": "can still miss"})
@@ -240,7 +265,7 @@ elif page == PAGES[3]:
             with st.spinner("Sending…"):
                 res = notify.send_emails(msgs, redirect_to=redirect.strip())
             st.success(f"Processed {len(res)} emails.")
-            st.dataframe(pd.DataFrame(res)[["kind", "to", "delivered_to", "subject", "status"]], hide_index=True)
+            show_df(pd.DataFrame(res)[["kind", "to", "delivered_to", "subject", "status"]], hide_index=True)
 
 elif page == PAGES[4]:
     st.header("📅 Book a slot with your subject teacher")
@@ -266,7 +291,7 @@ elif page == PAGES[4]:
     st.markdown(f"**Teacher:** {r.teacher} · attendance {r.att_pct}% · "
                 + (f"attend next **{r.need_in_row}** in a row" if r.need_in_row else f"can miss {r.can_miss}"))
     with st.expander(f"🗓️ {r.teacher}'s weekly timetable (synced from upload)"):
-        st.dataframe(tt.week_grid(ss.tt, r.teacher))
+        show_df(tt.week_grid(ss.tt, r.teacher))
     slots = tt.free_slots(ss.tt, r.teacher)
     if not slots:
         st.warning("No free slots in the next 7 days.")
@@ -287,7 +312,7 @@ elif page == PAGES[4]:
         st.download_button("⬇️ Add to calendar (.ics)", ics, file_name="appointment.ics", mime="text/calendar")
     if tt.BOOKINGS:
         st.subheader("All bookings")
-        st.dataframe(pd.DataFrame(tt.BOOKINGS), hide_index=True)
+        show_df(pd.DataFrame(tt.BOOKINGS), hide_index=True)
 
 elif page == PAGES[5]:
     st.header("📞 Automatic calls & 🗓️ weekly summary")
@@ -303,7 +328,7 @@ elif page == PAGES[5]:
         notify.CALLED.clear()
         st.info("Call memory cleared. Next analysis will call again.")
     if notify.CALL_LOG:
-        st.dataframe(pd.DataFrame(notify.CALL_LOG)[["time", "roll_no", "name", "dialled", "status", "message"]].iloc[::-1],
+        show_df(pd.DataFrame(notify.CALL_LOG)[["time", "roll_no", "name", "dialled", "status", "message"]].iloc[::-1],
                      hide_index=True)
 
     st.divider()
@@ -324,5 +349,5 @@ elif page == PAGES[5]:
 
     if notify.EMAIL_LOG:
         with st.expander(f"📬 Email log / outbox ({len(notify.EMAIL_LOG)})"):
-            st.dataframe(pd.DataFrame(notify.EMAIL_LOG)[["time", "kind", "to", "delivered_to", "subject", "status"]].iloc[::-1],
+            show_df(pd.DataFrame(notify.EMAIL_LOG)[["time", "kind", "to", "delivered_to", "subject", "status"]].iloc[::-1],
                          hide_index=True)
