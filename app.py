@@ -12,8 +12,8 @@ from core.config import THRESHOLD, secret
 
 st.set_page_config(page_title="AttendGuard", page_icon="🎓", layout="wide")
 SAMPLE = Path(__file__).parent / "data" / "sample"
-STATUS_COLORS = {"CRITICAL": "#DC2626", "WARNING": "#F59E0B", "SAFE": "#16A34A"}
-BRAND_COLORWAY = ["#4F46E5", "#0EA5E9", "#14B8A6", "#F59E0B", "#EC4899", "#8B5CF6", "#64748B"]
+STATUS_COLORS = {"CRITICAL": "#D03B3B", "WARNING": "#E8A10E", "SAFE": "#0CA30C"}  # reserved for status only
+BRAND_COLORWAY = ["#2A78D6", "#EB6834", "#1BAF7A", "#E87BA4", "#4A3AA7", "#008300", "#E34948"]  # fixed order
 ss = st.session_state
 
 st.markdown("""
@@ -87,6 +87,25 @@ h3 {font-size: 1.15rem !important; font-weight: 700 !important; margin-top: .6re
 [data-testid="stAlert"] {border-radius: 12px;}
 [data-testid="stFileUploader"] section {border-radius: 14px; background: #fff;}
 hr {margin: 1.4rem 0 !important;}
+
+/* how-it-works strip */
+.ag-steps {display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0 0 1.2rem 0;}
+.ag-step {display: flex; gap: 12px; align-items: flex-start; background: #fff; border: 1px solid #E5E7EB;
+  border-radius: 14px; padding: 14px 16px; box-shadow: 0 1px 2px rgba(16,24,40,.04);}
+.ag-step b {font-size: .95rem; color: #111827;}
+.ag-step p {margin: 2px 0 0 0; font-size: .82rem; color: #6B7280; line-height: 1.4;}
+.ag-num {flex: none; width: 28px; height: 28px; border-radius: 8px; background: #EEF2FF; color: #4338CA;
+  font-weight: 800; display: flex; align-items: center; justify-content: center;}
+@media (max-width: 900px) {.ag-steps {grid-template-columns: repeat(2, minmax(0, 1fr));}}
+
+.ag-bar {display: inline-block; vertical-align: middle; width: 56px; height: 6px; margin-right: 8px;
+  background: #F1F5F9; border-radius: 999px; overflow: hidden;}
+.ag-bar span {display: block; height: 100%; background: #D03B3B; border-radius: 999px;}
+
+/* sidebar integration status */
+.ag-int {display: flex; justify-content: space-between; align-items: center; padding: 7px 10px; margin: 4px 0;
+  background: #1E293B; border-radius: 10px; font-size: .82rem;}
+.ag-dot {display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -113,16 +132,35 @@ def chart(container, fig):
                       hoverlabel=dict(font_family="Inter, system-ui, sans-serif"))
     fig.update_xaxes(gridcolor="#EEF0F4", zeroline=False)
     fig.update_yaxes(gridcolor="#EEF0F4", zeroline=False)
+    if any(t.type == "bar" for t in fig.data):  # thin surface gaps between segments, rounded ends
+        fig.update_traces(marker_line_color="#FFFFFF", marker_line_width=2, textposition="inside",
+                          insidetextanchor="middle", textfont_color="#FFFFFF", textangle=0,
+                          textfont_size=11, selector=dict(type="bar"))
+        fig.update_layout(barcornerradius=4, bargap=0.35)
     container.plotly_chart(fig, theme=None)
+
+
+LABELS = {"roll_no": "Roll no", "name": "Name", "department": "Dept", "status": "Status",
+          "overall_pct": "Overall %", "worst_pct": "Lowest subject %", "max_need": "Attend in a row",
+          "below_85": "Below 85% in", "near_85": "Close to 85% in", "weak_in": "Weak marks in",
+          "falling_in": "Falling marks in", "risk": "Risk", "subject": "Subject", "classes_held": "Held",
+          "classes_attended": "Attended", "att_pct": "Attendance %", "need_in_row": "Attend in a row",
+          "can_miss": "Can still miss", "scores": "Test scores", "weak": "Weak", "falling": "Falling",
+          "teacher": "Teacher", "students": "Students", "critical": "Critical", "warning": "Warning",
+          "at_risk": "At risk", "avg_attendance": "Avg attendance %", "avg_risk": "Avg risk"}
 
 
 def show_df(df, hide_index=False, column_config=None):
     """st.dataframe, falling back to plain HTML where pyarrow can't load (e.g. locked-down Windows)."""
+    df = df.rename(columns=LABELS)
+    column_config = {LABELS.get(k, k): v for k, v in (column_config or {}).items()}
     try:
         import pyarrow  # noqa: F401
         st.dataframe(df, hide_index=hide_index, column_config=column_config)
     except ImportError:
-        html = df.to_html(index=not hide_index, border=0)
+        fmt = {"Risk": lambda v: f'<div class="ag-bar"><span style="width:{v:.0f}%"></span></div>{v:.0f}'}
+        html = df.to_html(index=not hide_index, border=0, escape=False,
+                          formatters={k: f for k, f in fmt.items() if k in df.columns})
         for status in _PILL_CLASS:  # colour-code status cells
             html = html.replace(f"<td>{status}</td>", f"<td>{pill(status)}</td>")
         st.markdown(f'<div class="ag-table">{html}</div>', unsafe_allow_html=True)
@@ -157,9 +195,13 @@ with st.sidebar:
     page = st.radio("Go to", PAGES, index=default_page, label_visibility="collapsed")
     st.divider()
     st.markdown("**Integrations**")
-    st.markdown(f"🤖 AI: `{ai.engine_name()}`")
-    st.markdown(f"✉️ Email: `{notify.email_mode()}`")
-    st.markdown(f"📞 Calls: `{notify.call_mode()}`")
+    for label, mode in (("🤖 AI", ai.engine_name()), ("✉️ Email", notify.email_mode()), ("📞 Calls", notify.call_mode())):
+        live = not any(w in mode for w in ("Template", "Outbox", "Simulated"))
+        dot = "#22C55E" if live else "#F59E0B"
+        short = mode.split(" (")[0] if live else "Demo mode"
+        st.markdown(f'<div class="ag-int" title="{mode}"><span>{label}</span>'
+                    f'<span><span class="ag-dot" style="background:{dot}"></span>{short}</span></div>',
+                    unsafe_allow_html=True)
     if secret("DEMO_INBOX"):
         st.caption(f"Demo mode: emails redirected to {secret('DEMO_INBOX')}")
 
@@ -175,6 +217,13 @@ if page == PAGES[0]:
     hero("📤 Upload attendance, test results & timetables",
          "Drop in attendance sheets, recent test results and teacher timetables. AttendGuard scores every student instantly.",
          "Step 1 · Data")
+    steps = [("1", "Upload", "Attendance, test results and teacher timetables (CSV or Excel)."),
+             ("2", "Analyse", "Attendance %, classes needed in a row, and weak or falling marks."),
+             ("3", "Alert", "AI-written emails to students, teachers and advisers; auto-call below 85%."),
+             ("4", "Recover", "Students book a teacher's free slot; a weekly summary goes to the HOD.")]
+    st.markdown('<div class="ag-steps">' + "".join(
+        f'<div class="ag-step"><div class="ag-num">{n}</div><div><b>{t}</b><p>{d}</p></div></div>'
+        for n, t, d in steps) + "</div>", unsafe_allow_html=True)
     c1, c2, c3 = st.columns(3)
     f_att = c1.file_uploader("Attendance sheet (CSV/XLSX)", type=["csv", "xlsx"])
     f_marks = c2.file_uploader("Recent test results (CSV/XLSX)", type=["csv", "xlsx"])
@@ -223,23 +272,31 @@ elif page == PAGES[1]:
     k[3].metric("Weak / falling marks", int(((s.weak_in != "") | (s.falling_in != "")).sum()))
     k[4].metric("Avg attendance", f"{s.overall_pct.mean():.1f}%")
 
-    c1, c2 = st.columns(2)
+    order = {"status": ["CRITICAL", "WARNING", "SAFE"]}
+    c1, c2 = st.columns([2, 3])
     dept_status = s.groupby(["department", "status"]).size().reset_index(name="students")
-    chart(c1, px.bar(dept_status, x="department", y="students", color="status",
-                           color_discrete_map=STATUS_COLORS, title="Department-wise risk",
-                           category_orders={"status": ["CRITICAL", "WARNING", "SAFE"]}))
-    heat = subj.pivot_table(index="department", columns="subject", values="att_pct", aggfunc="mean")
-    chart(c2, px.imshow(heat.round(1), text_auto=True, aspect="auto", color_continuous_scale="RdYlGn",
-                              zmin=70, zmax=100, title="Subject-wise average attendance %"))
+    chart(c1, px.bar(dept_status, x="department", y="students", color="status", text="students",
+                     color_discrete_map=STATUS_COLORS, category_orders=order,
+                     title="Department-wise risk (students)", height=420)
+          .update_layout(xaxis_title=None, yaxis_title=None))
 
-    subs = risk.subject_summary(subj)
-    c3, c4 = st.columns(2)
-    chart(c3, px.bar(subs.head(10), x="below_85", y="subject", color="department", orientation="h",
-                           title=f"Subjects with most students below {THRESHOLD:g}%")
-                    .update_layout(yaxis={"categoryorder": "total ascending"}))
-    chart(c4, px.scatter(s, x="overall_pct", y="avg_mark", color="status", size="risk",
-                               hover_data=["name", "roll_no", "department"], color_discrete_map=STATUS_COLORS,
-                               title="Attendance vs latest marks (bubble = risk)"))
+    subj_status = (subj.assign(label=subj.department + " · " + subj.subject)
+                   .groupby(["label", "status"]).size().reset_index(name="students"))
+    crit_rank = (subj_status[subj_status.status == "CRITICAL"].set_index("label").students
+                 .reindex(subj_status.label.unique()).fillna(0).sort_values())
+    chart(c2, px.bar(subj_status, y="label", x="students", color="status", orientation="h", text="students",
+                     color_discrete_map=STATUS_COLORS, category_orders=order | {"label": list(crit_rank.index[::-1])},
+                     title="Subject-wise risk (most students below 85% on top)", height=420)
+          .update_layout(xaxis_title=None, yaxis_title=None, showlegend=False))
+
+    fig = px.scatter(s, x="overall_pct", y="avg_mark", color="status", size="risk", size_max=18,
+                     hover_name="name", hover_data={"roll_no": True, "department": True, "risk": True},
+                     color_discrete_map=STATUS_COLORS, category_orders=order,
+                     labels={"overall_pct": "Overall attendance %", "avg_mark": "Average latest mark"},
+                     title="Attendance vs marks: bottom-left is the danger zone", height=380)
+    fig.add_vline(x=THRESHOLD, line_dash="dot", line_color="#6B7280", annotation_text=f"{THRESHOLD:g}% rule")
+    fig.add_hline(y=40, line_dash="dot", line_color="#6B7280", annotation_text="weak-mark line")
+    chart(st, fig)
 
     st.subheader("🔥 Most at-risk students")
     show_df(s[s.at_risk][["roll_no", "name", "department", "overall_pct", "worst_pct", "max_need",
