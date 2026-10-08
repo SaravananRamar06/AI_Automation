@@ -9,7 +9,7 @@ import plotly.express as px
 import streamlit as st
 import streamlit.components.v1 as components
 
-from core import ai, notify, risk, summary
+from core import ai, demo_data, notify, risk, summary
 from core import timetable as tt
 from core.config import THRESHOLD, secret
 
@@ -104,9 +104,24 @@ def run_analysis(att, marks, timetable):
     ss.last_calls = notify.auto_call(students)
 
 
-def load_sample():
-    run_analysis(pd.read_csv(SAMPLE / "attendance.csv"), pd.read_csv(SAMPLE / "marks.csv"),
-                 pd.read_csv(SAMPLE / "timetable.csv"))
+FULL_DEMO = Path(__file__).parent / "sample_data"
+DEMOS = ["Small demo (3 departments, 42 students)", "Full demo (5 departments, 300 students)"]
+
+
+@st.cache_data(show_spinner="Loading demo data…")
+def _full_demo():
+    return demo_data.load_full_demo(FULL_DEMO)
+
+
+def load_sample(which=DEMOS[0]):
+    if which == DEMOS[1]:
+        summary, marks, timetable, log = _full_demo()
+        run_analysis(summary, marks, timetable)
+        ss.cleaning_log = log
+    else:
+        run_analysis(pd.read_csv(SAMPLE / "attendance.csv"), pd.read_csv(SAMPLE / "marks.csv"),
+                     pd.read_csv(SAMPLE / "timetable.csv"))
+        ss.cleaning_log = []
 
 
 if "students" not in ss and st.query_params.get("roll"):
@@ -158,17 +173,20 @@ if page == PAGES[0]:
     f_att = c1.file_uploader("Attendance sheet (CSV/XLSX)", type=["csv", "xlsx"])
     f_marks = c2.file_uploader("Recent test results (CSV/XLSX)", type=["csv", "xlsx"])
     f_tt = c3.file_uploader("Teachers' timetable (CSV/XLSX)", type=["csv", "xlsx"])
-    b1, b2 = st.columns([1, 1])
+    b1, b2, b3 = st.columns([1.2, 1.6, 1])
     if b1.button("🚀 Analyze uploaded files", type="primary", disabled=f_att is None):
         try:
             run_analysis(risk.read_table(f_att), risk.read_table(f_marks) if f_marks else None,
                          risk.read_table(f_tt) if f_tt else pd.read_csv(SAMPLE / "timetable.csv"))
+            ss.cleaning_log = []
             st.success("Analysis complete.")
         except Exception as e:
             st.error(f"Could not process files: {e}")
-    if b2.button("🧪 Load sample data (3 departments, 42 students)"):
-        load_sample()
-        st.success("Sample data loaded and analysed.")
+    which = b2.selectbox("Demo dataset", DEMOS, label_visibility="collapsed")
+    if b3.button("🧪 Load sample data"):
+        load_sample(which)
+        st.toast(f"{which.split(' (')[0]} loaded and analysed.", icon="✅")
+        st.success(f"{which} loaded and analysed.")
 
     if "students" in ss:
         s = ss.students
@@ -185,9 +203,20 @@ if page == PAGES[0]:
             "- **Attendance**: `roll_no, name, email, phone, department, adviser_name, adviser_email, subject, classes_held, classes_attended`\n"
             "- **Test results**: `roll_no, subject, test1, test2, test3, …` (any number of test columns, oldest first)\n"
             "- **Timetable** (teaching periods): `teacher, teacher_email, department, subject, day (Mon-Fri), slot (e.g. 09:00-10:00)`")
+        st.caption("Simple format (Small demo)")
         d1, d2, d3 = st.columns(3)
         for col, name in zip((d1, d2, d3), ("attendance.csv", "marks.csv", "timetable.csv")):
-            col.download_button(f"⬇️ {name}", (SAMPLE / name).read_bytes(), file_name=name, mime="text/csv")
+            col.download_button(f"⬇️ {name}", (SAMPLE / name).read_bytes(), file_name=name, mime="text/csv",
+                                key=f"small-{name}")
+        st.caption("Detailed format (Full demo): headers plus 2 example rows")
+        tpl = sorted((FULL_DEMO / "templates").glob("*.csv"))
+        for col, path in zip(st.columns(len(tpl) or 1), tpl):
+            col.download_button(f"⬇️ {path.name}", path.read_bytes(), file_name=path.name, mime="text/csv",
+                                key=f"tpl-{path.name}")
+
+    if ss.get("cleaning_log"):
+        with st.expander(f"🧹 Data cleaning log ({len(ss.cleaning_log)} fixes)"):
+            show_df(pd.DataFrame(ss.cleaning_log), hide_index=True)
 
 elif page == PAGES[1]:
     if not has_data:
