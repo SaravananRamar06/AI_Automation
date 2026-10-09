@@ -20,8 +20,37 @@ def _parse_dates(s: pd.Series) -> tuple[pd.Series, int]:
     return iso.fillna(dmy), fixed
 
 
-def load_full_demo(folder: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, list[dict]]:
+CACHE_DIR = "cache"  # precomputed tables shipped with the in-browser (Vercel) build
+NUMERIC = {"summary": ["classes_held", "classes_attended"], "marks": ["CAT1", "CAT2"], "timetable": []}
+
+
+def write_cache(folder: Path, out: Path) -> None:
+    """Save the processed Full demo tables so the browser build skips the 87k-row aggregation."""
+    summary, marks, timetable, log = load_full_demo(folder, use_cache=False)
+    out.mkdir(parents=True, exist_ok=True)
+    for name, df in (("summary", summary), ("marks", marks), ("timetable", timetable)):
+        df.to_csv(out / f"{name}.csv", index=False, lineterminator="\n")
+    pd.DataFrame(log).to_csv(out / "log.csv", index=False, lineterminator="\n")
+
+
+def _read_cache(cache: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, list[dict]]:
+    tables = []
+    for name in ("summary", "marks", "timetable"):
+        df = pd.read_csv(cache / f"{name}.csv", dtype=str, keep_default_na=False)
+        for col in NUMERIC[name]:
+            df[col] = pd.to_numeric(df[col], errors="coerce")  # blank -> NaN
+        if name == "summary":
+            df[NUMERIC[name]] = df[NUMERIC[name]].astype(int)
+        tables.append(df)
+    log = pd.read_csv(cache / "log.csv").to_dict("records")
+    return tables[0], tables[1], tables[2], log
+
+
+def load_full_demo(folder: Path, use_cache: bool = True
+                   ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, list[dict]]:
     """Return (attendance summary, marks wide, timetable, cleaning log)."""
+    if use_cache and (folder / CACHE_DIR / "summary.csv").exists():
+        return _read_cache(folder / CACHE_DIR)
     log: list[dict] = []
 
     def note(file: str, fix: str, count: int) -> None:

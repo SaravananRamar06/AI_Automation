@@ -1,0 +1,1801 @@
+roll_no,subject,CAT1,CAT2
+23CSA001,Computer Networks,88.6,89.8
+23CSA001,Data Structures,85.8,89.0
+23CSA001,Database Systems,92.2,90.8
+23CSA001,Operating Systems,87.0,86.2
+23CSA001,Software Engineering,83.2,91.4
+23CSA001,Theory of Computation,91.0,89.0
+23CSA002,Computer Networks,64.2,66.4
+23CSA002,Data Structures,70.0,64.4
+23CSA002,Database Systems,67.6,69.0
+23CSA002,Operating Systems,70.0,63.8
+23CSA002,Software Engineering,68.4,66.2
+23CSA002,Theory of Computation,67.4,65.4
+23CSA003,Computer Networks,71.0,69.6
+23CSA003,Data Structures,70.2,68.8
+23CSA003,Database Systems,71.2,67.8
+23CSA003,Operating Systems,66.0,70.8
+23CSA003,Software Engineering,70.8,69.0
+23CSA003,Theory of Computation,67.0,67.8
+23CSA004,Computer Networks,74.8,76.2
+23CSA004,Data Structures,80.8,78.6
+23CSA004,Database Systems,81.8,78.6
+23CSA004,Operating Systems,75.8,80.6
+23CSA004,Software Engineering,77.6,78.0
+23CSA004,Theory of Computation,72.2,75.4
+23CSA005,Computer Networks,65.8,66.0
+23CSA005,Data Structures,67.2,64.4
+23CSA005,Database Systems,69.8,69.2
+23CSA005,Operating Systems,67.4,69.4
+23CSA005,Software Engineering,67.0,67.0
+23CSA005,Theory of Computation,64.2,68.6
+23CSA006,Computer Networks,72.8,75.4
+23CSA006,Data Structures,78.2,73.4
+23CSA006,Database Systems,70.8,76.0
+23CSA006,Operating Systems,76.4,71.0
+23CSA006,Software Engineering,74.6,71.2
+23CSA006,Theory of Computation,75.2,74.6
+23CSA007,Computer Networks,63.8,65.0
+23CSA007,Data Structures,64.4,66.2
+23CSA007,Database Systems,62.8,65.8
+23CSA007,Operating Systems,66.0,66.6
+23CSA007,Software Engineering,62.0,63.0
+23CSA007,Theory of Computation,59.8,62.4
+23CSA008,Computer Networks,87.2,88.6
+23CSA008,Data Structures,89.0,88.8
+23CSA008,Database Systems,87.0,83.6
+23CSA008,Operating Systems,90.2,84.8
+23CSA008,Software Engineering,86.0,84.6
+23CSA008,Theory of Computation,82.2,86.2
+23CSA009,Computer Networks,72.4,71.8
+23CSA009,Data Structures,74.2,73.0
+23CSA009,Database Systems,75.8,74.0
+23CSA009,Operating Systems,70.4,73.8
+23CSA009,Software Engineering,75.4,77.6
+23CSA009,Theory of Computation,76.8,75.2
+23CSA010,Computer Networks,75.4,79.0
+23CSA010,Data Structures,78.6,80.0
+23CSA010,Database Systems,79.8,77.0
+23CSA010,Operating Systems,78.6,80.2
+23CSA010,Software Engineering,80.0,77.0
+23CSA010,Theory of Computation,78.8,79.8
+23CSA011,Computer Networks,82.8,84.2
+23CSA011,Data Structures,86.8,86.2
+23CSA011,Database Systems,88.2,86.8
+23CSA011,Operating Systems,81.4,82.4
+23CSA011,Software Engineering,85.6,87.6
+23CSA011,Theory of Computation,85.8,83.8
+23CSA012,Computer Networks,79.4,81.6
+23CSA012,Data Structures,81.0,80.8
+23CSA012,Database Systems,82.0,79.4
+23CSA012,Operating Systems,84.0,79.8
+23CSA012,Software Engineering,82.0,79.6
+23CSA012,Theory of Computation,77.8,80.4
+23CSA013,Computer Networks,65.4,62.4
+23CSA013,Data Structures,64.6,65.2
+23CSA013,Database Systems,62.2,64.0
+23CSA013,Operating Systems,64.2,62.8
+23CSA013,Software Engineering,66.4,64.6
+23CSA013,Theory of Computation,60.4,63.6
+23CSA014,Computer Networks,89.2,85.4
+23CSA014,Data Structures,86.6,87.0
+23CSA014,Database Systems,84.2,88.8
+23CSA014,Operating Systems,88.2,88.2
+23CSA014,Software Engineering,87.4,87.4
+23CSA014,Theory of Computation,85.2,89.0
+23CSA015,Computer Networks,77.8,80.2
+23CSA015,Data Structures,84.2,80.6
+23CSA015,Database Systems,82.2,80.4
+23CSA015,Operating Systems,79.6,82.4
+23CSA015,Software Engineering,83.2,80.2
+23CSA015,Theory of Computation,80.2,83.4
+23CSA016,Computer Networks,78.6,76.4
+23CSA016,Data Structures,76.2,77.0
+23CSA016,Database Systems,80.6,80.6
+23CSA016,Operating Systems,83.0,78.8
+23CSA016,Software Engineering,75.0,81.0
+23CSA016,Theory of Computation,79.4,81.6
+23CSA017,Computer Networks,77.0,82.8
+23CSA017,Data Structures,82.4,78.0
+23CSA017,Database Systems,75.0,80.0
+23CSA017,Operating Systems,78.8,78.2
+23CSA017,Software Engineering,82.8,78.0
+23CSA017,Theory of Computation,80.6,81.4
+23CSA018,Computer Networks,87.6,86.6
+23CSA018,Data Structures,88.8,90.4
+23CSA018,Database Systems,88.4,88.2
+23CSA018,Operating Systems,93.6,86.6
+23CSA018,Software Engineering,91.0,88.4
+23CSA018,Theory of Computation,87.4,88.2
+23CSA019,Computer Networks,81.6,83.8
+23CSA019,Data Structures,80.8,80.4
+23CSA019,Database Systems,82.8,81.8
+23CSA019,Operating Systems,83.2,81.8
+23CSA019,Software Engineering,87.2,85.2
+23CSA019,Theory of Computation,79.4,82.6
+23CSA020,Computer Networks,34.4,18.4
+23CSA020,Data Structures,20.4,33.2
+23CSA020,Database Systems,24.8,31.4
+23CSA020,Operating Systems,33.2,19.2
+23CSA020,Software Engineering,30.8,26.0
+23CSA020,Theory of Computation,20.0,18.2
+23CSA021,Computer Networks,70.0,69.8
+23CSA021,Data Structures,74.4,69.4
+23CSA021,Database Systems,75.6,72.4
+23CSA021,Operating Systems,74.2,70.4
+23CSA021,Software Engineering,72.8,69.2
+23CSA021,Theory of Computation,74.8,69.0
+23CSA022,Computer Networks,82.2,81.2
+23CSA022,Data Structures,83.8,87.0
+23CSA022,Database Systems,84.6,83.0
+23CSA022,Operating Systems,80.8,81.8
+23CSA022,Software Engineering,86.0,83.4
+23CSA022,Theory of Computation,83.6,86.2
+23CSA023,Computer Networks,69.8,73.0
+23CSA023,Data Structures,73.8,67.8
+23CSA023,Database Systems,73.2,70.2
+23CSA023,Operating Systems,67.0,72.0
+23CSA023,Software Engineering,71.0,67.8
+23CSA023,Theory of Computation,68.2,70.0
+23CSA024,Computer Networks,65.2,64.8
+23CSA024,Data Structures,62.8,67.2
+23CSA024,Database Systems,66.8,65.2
+23CSA024,Operating Systems,68.6,66.8
+23CSA024,Software Engineering,66.8,65.8
+23CSA024,Theory of Computation,63.2,63.4
+23CSA025,Computer Networks,77.8,75.6
+23CSA025,Data Structures,81.6,80.4
+23CSA025,Database Systems,77.8,77.2
+23CSA025,Operating Systems,75.0,78.2
+23CSA025,Software Engineering,77.6,76.2
+23CSA025,Theory of Computation,77.6,78.2
+23CSA026,Computer Networks,87.4,85.0
+23CSA026,Data Structures,90.4,87.8
+23CSA026,Database Systems,89.0,87.6
+23CSA026,Operating Systems,83.4,85.4
+23CSA026,Software Engineering,86.2,86.6
+23CSA026,Theory of Computation,88.4,89.2
+23CSA027,Computer Networks,79.4,80.8
+23CSA027,Data Structures,80.6,79.6
+23CSA027,Database Systems,79.4,81.4
+23CSA027,Operating Systems,82.8,84.6
+23CSA027,Software Engineering,86.4,83.0
+23CSA027,Theory of Computation,86.6,83.2
+23CSA028,Computer Networks,86.8,85.8
+23CSA028,Data Structures,84.4,86.4
+23CSA028,Database Systems,83.6,84.4
+23CSA028,Operating Systems,83.8,88.8
+23CSA028,Software Engineering,89.2,85.6
+23CSA028,Theory of Computation,81.4,88.6
+23CSA029,Computer Networks,72.8,73.0
+23CSA029,Data Structures,71.4,73.0
+23CSA029,Database Systems,76.8,74.8
+23CSA029,Operating Systems,75.8,72.8
+23CSA029,Software Engineering,70.0,76.6
+23CSA029,Theory of Computation,78.0,77.6
+23CSA030,Computer Networks,35.0,21.2
+23CSA030,Data Structures,38.0,19.4
+23CSA030,Database Systems,25.2,35.4
+23CSA030,Operating Systems,33.2,20.0
+23CSA030,Software Engineering,24.0,19.8
+23CSA030,Theory of Computation,23.8,25.8
+23CSB001,Computer Networks,25.8,26.4
+23CSB001,Data Structures,32.0,34.2
+23CSB001,Database Systems,18.0,36.0
+23CSB001,Operating Systems,24.8,23.2
+23CSB001,Software Engineering,33.8,22.4
+23CSB001,Theory of Computation,18.6,18.4
+23CSB002,Computer Networks,84.8,84.0
+23CSB002,Data Structures,85.2,86.2
+23CSB002,Database Systems,87.6,86.4
+23CSB002,Operating Systems,86.0,85.0
+23CSB002,Software Engineering,83.6,82.6
+23CSB002,Theory of Computation,84.2,83.4
+23CSB003,Computer Networks,82.6,86.2
+23CSB003,Data Structures,86.2,84.4
+23CSB003,Database Systems,87.6,88.4
+23CSB003,Operating Systems,84.4,85.8
+23CSB003,Software Engineering,84.6,88.4
+23CSB003,Theory of Computation,89.0,86.4
+23CSB004,Computer Networks,82.0,83.2
+23CSB004,Data Structures,83.4,82.2
+23CSB004,Database Systems,81.2,84.8
+23CSB004,Operating Systems,84.4,80.8
+23CSB004,Software Engineering,83.8,80.0
+23CSB004,Theory of Computation,80.2,81.0
+23CSB005,Computer Networks,76.2,74.6
+23CSB005,Data Structures,78.8,73.0
+23CSB005,Database Systems,77.4,76.6
+23CSB005,Operating Systems,70.4,77.6
+23CSB005,Software Engineering,73.4,74.8
+23CSB005,Theory of Computation,75.6,73.4
+23CSB006,Computer Networks,80.0,86.0
+23CSB006,Data Structures,86.4,82.0
+23CSB006,Database Systems,86.6,86.2
+23CSB006,Operating Systems,83.0,83.6
+23CSB006,Software Engineering,85.8,85.2
+23CSB006,Theory of Computation,81.8,81.8
+23CSB007,Computer Networks,58.2,61.6
+23CSB007,Data Structures,61.8,64.8
+23CSB007,Database Systems,61.4,62.0
+23CSB007,Operating Systems,64.0,64.6
+23CSB007,Software Engineering,62.0,61.2
+23CSB007,Theory of Computation,57.8,65.4
+23CSB008,Computer Networks,70.4,74.8
+23CSB008,Data Structures,75.4,73.6
+23CSB008,Database Systems,74.8,77.0
+23CSB008,Operating Systems,74.0,73.2
+23CSB008,Software Engineering,77.2,72.8
+23CSB008,Theory of Computation,72.6,76.6
+23CSB009,Computer Networks,83.2,51.4
+23CSB009,Data Structures,86.4,51.4
+23CSB009,Database Systems,72.4,40.2
+23CSB009,Operating Systems,79.0,48.8
+23CSB009,Software Engineering,79.0,47.2
+23CSB009,Theory of Computation,80.0,56.0
+23CSB010,Computer Networks,92.8,87.6
+23CSB010,Data Structures,92.8,87.6
+23CSB010,Database Systems,86.4,89.6
+23CSB010,Operating Systems,90.0,90.4
+23CSB010,Software Engineering,91.2,89.4
+23CSB010,Theory of Computation,90.0,87.0
+23CSB011,Computer Networks,85.8,88.4
+23CSB011,Data Structures,88.0,90.0
+23CSB011,Database Systems,89.4,91.6
+23CSB011,Operating Systems,86.2,89.4
+23CSB011,Software Engineering,87.4,87.0
+23CSB011,Theory of Computation,87.0,88.4
+23CSB012,Computer Networks,72.8,72.0
+23CSB012,Data Structures,70.2,75.8
+23CSB012,Database Systems,72.2,75.2
+23CSB012,Operating Systems,74.2,75.4
+23CSB012,Software Engineering,73.6,74.8
+23CSB012,Theory of Computation,74.2,76.0
+23CSB013,Computer Networks,85.8,83.4
+23CSB013,Data Structures,86.8,87.4
+23CSB013,Database Systems,87.0,87.6
+23CSB013,Operating Systems,91.2,84.6
+23CSB013,Software Engineering,89.0,85.0
+23CSB013,Theory of Computation,89.2,88.2
+23CSB014,Computer Networks,68.0,66.6
+23CSB014,Data Structures,64.4,66.6
+23CSB014,Database Systems,68.2,67.6
+23CSB014,Operating Systems,67.4,65.0
+23CSB014,Software Engineering,65.6,66.8
+23CSB014,Theory of Computation,64.6,66.6
+23CSB015,Computer Networks,60.0,64.8
+23CSB015,Data Structures,63.2,60.8
+23CSB015,Database Systems,62.0,63.8
+23CSB015,Operating Systems,61.4,60.6
+23CSB015,Software Engineering,64.8,61.4
+23CSB015,Theory of Computation,64.8,61.8
+23CSB016,Computer Networks,67.2,65.4
+23CSB016,Data Structures,71.8,68.2
+23CSB016,Database Systems,67.6,65.0
+23CSB016,Operating Systems,62.6,65.0
+23CSB016,Software Engineering,69.8,67.4
+23CSB016,Theory of Computation,68.6,67.0
+23CSB017,Computer Networks,68.6,65.4
+23CSB017,Data Structures,67.6,66.6
+23CSB017,Database Systems,67.4,65.0
+23CSB017,Operating Systems,71.8,67.2
+23CSB017,Software Engineering,68.0,66.8
+23CSB017,Theory of Computation,71.8,67.8
+23CSB018,Computer Networks,85.0,88.2
+23CSB018,Data Structures,82.2,86.6
+23CSB018,Database Systems,86.6,82.8
+23CSB018,Operating Systems,85.6,84.4
+23CSB018,Software Engineering,85.2,85.4
+23CSB018,Theory of Computation,83.4,87.8
+23CSB019,Computer Networks,68.8,63.4
+23CSB019,Data Structures,65.0,63.6
+23CSB019,Database Systems,66.2,66.2
+23CSB019,Operating Systems,65.6,69.2
+23CSB019,Software Engineering,66.4,65.2
+23CSB019,Theory of Computation,67.0,67.2
+23CSB020,Computer Networks,83.6,80.6
+23CSB020,Data Structures,82.0,85.2
+23CSB020,Database Systems,81.4,83.8
+23CSB020,Operating Systems,80.4,83.4
+23CSB020,Software Engineering,81.0,85.6
+23CSB020,Theory of Computation,80.2,84.4
+23CSB021,Computer Networks,85.4,84.2
+23CSB021,Data Structures,87.8,88.6
+23CSB021,Database Systems,88.2,85.2
+23CSB021,Operating Systems,82.2,87.6
+23CSB021,Software Engineering,82.6,87.8
+23CSB021,Theory of Computation,84.8,83.4
+23CSB022,Computer Networks,93.2,88.0
+23CSB022,Data Structures,88.4,90.4
+23CSB022,Database Systems,89.0,85.8
+23CSB022,Operating Systems,90.6,86.2
+23CSB022,Software Engineering,91.4,86.6
+23CSB022,Theory of Computation,89.8,86.6
+23CSB023,Computer Networks,91.6,86.2
+23CSB023,Data Structures,91.6,87.6
+23CSB023,Database Systems,83.4,89.0
+23CSB023,Operating Systems,86.0,85.6
+23CSB023,Software Engineering,89.2,90.2
+23CSB023,Theory of Computation,87.2,90.2
+23CSB024,Computer Networks,78.2,73.0
+23CSB024,Data Structures,75.2,75.2
+23CSB024,Database Systems,78.4,75.2
+23CSB024,Operating Systems,75.2,75.2
+23CSB024,Software Engineering,78.8,76.4
+23CSB024,Theory of Computation,74.6,76.2
+23CSB025,Computer Networks,64.0,63.4
+23CSB025,Data Structures,63.6,64.0
+23CSB025,Database Systems,67.0,67.0
+23CSB025,Operating Systems,61.6,63.8
+23CSB025,Software Engineering,62.2,66.2
+23CSB025,Theory of Computation,60.8,65.6
+23CSB026,Computer Networks,68.6,70.6
+23CSB026,Data Structures,65.2,66.8
+23CSB026,Database Systems,68.6,68.2
+23CSB026,Operating Systems,63.0,70.8
+23CSB026,Software Engineering,73.8,67.8
+23CSB026,Theory of Computation,68.4,71.2
+23CSB027,Computer Networks,79.2,73.8
+23CSB027,Data Structures,81.6,79.6
+23CSB027,Database Systems,77.8,74.8
+23CSB027,Operating Systems,76.0,79.2
+23CSB027,Software Engineering,79.6,74.6
+23CSB027,Theory of Computation,74.6,77.6
+23CSB028,Computer Networks,73.6,71.4
+23CSB028,Data Structures,74.8,69.2
+23CSB028,Database Systems,72.0,72.2
+23CSB028,Operating Systems,71.0,69.6
+23CSB028,Software Engineering,72.0,72.0
+23CSB028,Theory of Computation,72.6,73.8
+23CSB029,Computer Networks,82.8,83.8
+23CSB029,Data Structures,88.2,82.8
+23CSB029,Database Systems,83.0,80.4
+23CSB029,Operating Systems,82.4,85.0
+23CSB029,Software Engineering,86.2,80.2
+23CSB029,Theory of Computation,81.6,82.6
+23CSB030,Computer Networks,91.6,65.6
+23CSB030,Data Structures,77.0,52.2
+23CSB030,Database Systems,68.6,41.6
+23CSB030,Operating Systems,75.4,50.6
+23CSB030,Software Engineering,79.8,46.4
+23CSB030,Theory of Computation,70.6,40.0
+23CVA001,Concrete Technology,65.6,60.4
+23CVA001,Environmental Engineering,63.4,59.4
+23CVA001,Geotechnical Engineering,62.0,62.2
+23CVA001,Structural Analysis,59.6,61.0
+23CVA001,Surveying,62.2,63.2
+23CVA001,Transportation Engineering,60.0,63.8
+23CVA002,Concrete Technology,82.4,86.0
+23CVA002,Environmental Engineering,85.8,83.2
+23CVA002,Geotechnical Engineering,83.2,86.0
+23CVA002,Structural Analysis,79.6,83.4
+23CVA002,Surveying,83.6,83.0
+23CVA002,Transportation Engineering,80.0,82.2
+23CVA003,Concrete Technology,85.4,80.2
+23CVA003,Environmental Engineering,80.0,82.2
+23CVA003,Geotechnical Engineering,85.2,83.2
+23CVA003,Structural Analysis,84.8,81.8
+23CVA003,Surveying,79.8,80.8
+23CVA003,Transportation Engineering,79.2,79.4
+23CVA004,Concrete Technology,73.2,66.8
+23CVA004,Environmental Engineering,70.6,69.8
+23CVA004,Geotechnical Engineering,65.4,68.6
+23CVA004,Structural Analysis,73.0,66.0
+23CVA004,Surveying,69.4,65.4
+23CVA004,Transportation Engineering,67.0,67.6
+23CVA005,Concrete Technology,71.4,71.8
+23CVA005,Environmental Engineering,73.4,69.4
+23CVA005,Geotechnical Engineering,69.8,69.0
+23CVA005,Structural Analysis,70.8,70.2
+23CVA005,Surveying,73.4,74.8
+23CVA005,Transportation Engineering,74.2,72.4
+23CVA006,Concrete Technology,86.6,82.4
+23CVA006,Environmental Engineering,82.0,80.6
+23CVA006,Geotechnical Engineering,85.6,80.4
+23CVA006,Structural Analysis,84.8,81.2
+23CVA006,Surveying,80.6,81.6
+23CVA006,Transportation Engineering,77.4,85.4
+23CVA007,Concrete Technology,68.8,68.6
+23CVA007,Environmental Engineering,67.2,65.4
+23CVA007,Geotechnical Engineering,64.4,65.8
+23CVA007,Structural Analysis,62.6,67.2
+23CVA007,Surveying,66.0,67.0
+23CVA007,Transportation Engineering,69.4,68.4
+23CVA008,Concrete Technology,77.4,79.2
+23CVA008,Environmental Engineering,77.6,82.0
+23CVA008,Geotechnical Engineering,79.4,79.8
+23CVA008,Structural Analysis,80.2,82.4
+23CVA008,Surveying,76.4,83.0
+23CVA008,Transportation Engineering,77.0,77.8
+23CVA009,Concrete Technology,80.2,82.0
+23CVA009,Environmental Engineering,82.8,79.8
+23CVA009,Geotechnical Engineering,80.6,79.8
+23CVA009,Structural Analysis,81.2,78.4
+23CVA009,Surveying,78.8,83.2
+23CVA009,Transportation Engineering,78.8,82.8
+23CVA010,Concrete Technology,71.6,74.8
+23CVA010,Environmental Engineering,71.8,70.8
+23CVA010,Geotechnical Engineering,70.8,73.4
+23CVA010,Structural Analysis,71.8,75.6
+23CVA010,Surveying,70.8,74.6
+23CVA010,Transportation Engineering,74.6,70.6
+23CVA011,Concrete Technology,90.0,92.4
+23CVA011,Environmental Engineering,88.4,89.4
+23CVA011,Geotechnical Engineering,90.4,86.8
+23CVA011,Structural Analysis,89.8,87.0
+23CVA011,Surveying,84.8,88.4
+23CVA011,Transportation Engineering,89.4,88.0
+23CVA012,Concrete Technology,66.8,68.8
+23CVA012,Environmental Engineering,62.0,66.8
+23CVA012,Geotechnical Engineering,63.8,67.0
+23CVA012,Structural Analysis,66.6,68.4
+23CVA012,Surveying,66.4,66.6
+23CVA012,Transportation Engineering,67.6,65.2
+23CVA013,Concrete Technology,72.6,41.6
+23CVA013,Environmental Engineering,65.2,38.8
+23CVA013,Geotechnical Engineering,83.6,51.6
+23CVA013,Structural Analysis,74.4,47.2
+23CVA013,Surveying,82.4,59.4
+23CVA013,Transportation Engineering,90.0,52.2
+23CVA014,Concrete Technology,81.4,82.0
+23CVA014,Environmental Engineering,82.6,81.0
+23CVA014,Geotechnical Engineering,86.2,83.0
+23CVA014,Structural Analysis,82.2,83.4
+23CVA014,Surveying,83.8,80.2
+23CVA014,Transportation Engineering,82.6,83.4
+23CVA015,Concrete Technology,34.2,23.0
+23CVA015,Environmental Engineering,38.0,35.6
+23CVA015,Geotechnical Engineering,26.8,34.4
+23CVA015,Structural Analysis,27.0,34.6
+23CVA015,Surveying,32.0,32.2
+23CVA015,Transportation Engineering,27.2,21.8
+23CVA016,Concrete Technology,30.4,19.2
+23CVA016,Environmental Engineering,26.8,21.4
+23CVA016,Geotechnical Engineering,32.0,24.2
+23CVA016,Structural Analysis,38.0,28.4
+23CVA016,Surveying,33.4,25.6
+23CVA016,Transportation Engineering,20.8,35.8
+23CVA017,Concrete Technology,62.0,65.4
+23CVA017,Environmental Engineering,63.0,62.8
+23CVA017,Geotechnical Engineering,63.2,65.0
+23CVA017,Structural Analysis,67.4,62.6
+23CVA017,Surveying,60.4,63.2
+23CVA017,Transportation Engineering,60.8,64.6
+23CVA018,Concrete Technology,82.6,75.8
+23CVA018,Environmental Engineering,77.6,78.4
+23CVA018,Geotechnical Engineering,78.4,78.6
+23CVA018,Structural Analysis,82.2,79.6
+23CVA018,Surveying,79.4,80.4
+23CVA018,Transportation Engineering,76.2,81.2
+23CVA019,Concrete Technology,82.8,83.6
+23CVA019,Environmental Engineering,84.4,87.6
+23CVA019,Geotechnical Engineering,85.8,87.0
+23CVA019,Structural Analysis,90.6,85.4
+23CVA019,Surveying,87.8,86.2
+23CVA019,Transportation Engineering,88.4,87.8
+23CVA020,Concrete Technology,63.8,59.6
+23CVA020,Environmental Engineering,62.4,65.4
+23CVA020,Geotechnical Engineering,63.8,61.2
+23CVA020,Structural Analysis,58.0,61.4
+23CVA020,Surveying,62.8,60.0
+23CVA020,Transportation Engineering,63.4,64.2
+23CVA021,Concrete Technology,87.0,90.2
+23CVA021,Environmental Engineering,87.4,92.0
+23CVA021,Geotechnical Engineering,91.4,88.4
+23CVA021,Structural Analysis,92.6,89.8
+23CVA021,Surveying,89.2,87.6
+23CVA021,Transportation Engineering,93.0,88.8
+23CVA022,Concrete Technology,75.4,72.8
+23CVA022,Environmental Engineering,72.4,74.2
+23CVA022,Geotechnical Engineering,78.6,73.2
+23CVA022,Structural Analysis,72.2,72.2
+23CVA022,Surveying,72.6,72.0
+23CVA022,Transportation Engineering,70.2,74.4
+23CVA023,Concrete Technology,80.0,87.0
+23CVA023,Environmental Engineering,81.0,85.4
+23CVA023,Geotechnical Engineering,85.8,86.4
+23CVA023,Structural Analysis,87.2,85.6
+23CVA023,Surveying,82.4,83.0
+23CVA023,Transportation Engineering,85.8,81.8
+23CVA024,Concrete Technology,74.4,78.2
+23CVA024,Environmental Engineering,72.8,76.8
+23CVA024,Geotechnical Engineering,75.0,74.6
+23CVA024,Structural Analysis,78.8,76.4
+23CVA024,Surveying,77.8,74.2
+23CVA024,Transportation Engineering,75.8,73.8
+23CVA025,Concrete Technology,64.8,63.6
+23CVA025,Environmental Engineering,66.4,64.8
+23CVA025,Geotechnical Engineering,67.4,64.4
+23CVA025,Structural Analysis,65.2,66.6
+23CVA025,Surveying,71.6,64.0
+23CVA025,Transportation Engineering,65.6,66.4
+23CVA026,Concrete Technology,60.6,61.0
+23CVA026,Environmental Engineering,57.6,60.4
+23CVA026,Geotechnical Engineering,63.0,62.2
+23CVA026,Structural Analysis,62.2,59.6
+23CVA026,Surveying,62.8,61.4
+23CVA026,Transportation Engineering,59.4,59.2
+23CVA027,Concrete Technology,64.8,61.6
+23CVA027,Environmental Engineering,64.6,66.4
+23CVA027,Geotechnical Engineering,60.8,61.8
+23CVA027,Structural Analysis,69.2,64.6
+23CVA027,Surveying,59.8,65.0
+23CVA027,Transportation Engineering,66.0,61.8
+23CVA028,Concrete Technology,77.8,79.0
+23CVA028,Environmental Engineering,82.0,78.8
+23CVA028,Geotechnical Engineering,82.2,79.0
+23CVA028,Structural Analysis,81.8,78.6
+23CVA028,Surveying,77.6,79.0
+23CVA028,Transportation Engineering,78.2,78.8
+23CVA029,Concrete Technology,77.8,49.2
+23CVA029,Environmental Engineering,90.2,55.8
+23CVA029,Geotechnical Engineering,75.4,53.8
+23CVA029,Structural Analysis,73.2,40.4
+23CVA029,Surveying,70.4,45.2
+23CVA029,Transportation Engineering,85.2,58.8
+23CVA030,Concrete Technology,62.0,64.8
+23CVA030,Environmental Engineering,62.0,64.2
+23CVA030,Geotechnical Engineering,64.4,63.0
+23CVA030,Structural Analysis,68.2,62.2
+23CVA030,Surveying,62.2,63.2
+23CVA030,Transportation Engineering,66.0,66.6
+23CVB001,Concrete Technology,82.2,81.6
+23CVB001,Environmental Engineering,82.8,77.2
+23CVB001,Geotechnical Engineering,77.8,80.0
+23CVB001,Structural Analysis,78.4,80.4
+23CVB001,Surveying,77.0,79.8
+23CVB001,Transportation Engineering,77.4,80.4
+23CVB002,Concrete Technology,77.0,74.6
+23CVB002,Environmental Engineering,75.8,76.0
+23CVB002,Geotechnical Engineering,77.4,79.6
+23CVB002,Structural Analysis,81.8,78.0
+23CVB002,Surveying,75.6,76.4
+23CVB002,Transportation Engineering,75.6,77.6
+23CVB003,Concrete Technology,62.4,63.4
+23CVB003,Environmental Engineering,70.2,67.2
+23CVB003,Geotechnical Engineering,63.0,67.8
+23CVB003,Structural Analysis,66.0,64.2
+23CVB003,Surveying,67.0,66.8
+23CVB003,Transportation Engineering,62.6,66.8
+23CVB004,Concrete Technology,61.2,63.6
+23CVB004,Environmental Engineering,64.4,65.4
+23CVB004,Geotechnical Engineering,68.2,66.0
+23CVB004,Structural Analysis,67.4,65.4
+23CVB004,Surveying,65.0,64.4
+23CVB004,Transportation Engineering,66.2,66.6
+23CVB005,Concrete Technology,76.6,69.2
+23CVB005,Environmental Engineering,76.4,72.0
+23CVB005,Geotechnical Engineering,68.8,69.6
+23CVB005,Structural Analysis,75.4,69.0
+23CVB005,Surveying,74.2,73.4
+23CVB005,Transportation Engineering,73.4,72.8
+23CVB006,Concrete Technology,86.6,85.0
+23CVB006,Environmental Engineering,84.2,89.4
+23CVB006,Geotechnical Engineering,84.8,85.8
+23CVB006,Structural Analysis,87.2,88.4
+23CVB006,Surveying,87.4,85.6
+23CVB006,Transportation Engineering,87.6,86.6
+23CVB007,Concrete Technology,78.8,82.0
+23CVB007,Environmental Engineering,78.4,82.4
+23CVB007,Geotechnical Engineering,86.2,79.4
+23CVB007,Structural Analysis,78.8,81.6
+23CVB007,Surveying,81.4,81.6
+23CVB007,Transportation Engineering,79.4,82.0
+23CVB008,Concrete Technology,84.4,79.0
+23CVB008,Environmental Engineering,79.2,77.0
+23CVB008,Geotechnical Engineering,82.0,76.8
+23CVB008,Structural Analysis,80.2,80.6
+23CVB008,Surveying,82.2,79.6
+23CVB008,Transportation Engineering,80.0,80.0
+23CVB009,Concrete Technology,83.8,80.6
+23CVB009,Environmental Engineering,82.2,78.8
+23CVB009,Geotechnical Engineering,79.2,76.4
+23CVB009,Structural Analysis,78.4,78.4
+23CVB009,Surveying,79.2,81.2
+23CVB009,Transportation Engineering,77.2,79.4
+23CVB010,Concrete Technology,67.2,62.2
+23CVB010,Environmental Engineering,60.0,61.4
+23CVB010,Geotechnical Engineering,63.8,60.8
+23CVB010,Structural Analysis,66.6,61.6
+23CVB010,Surveying,62.2,61.8
+23CVB010,Transportation Engineering,60.8,60.2
+23CVB011,Concrete Technology,87.2,86.8
+23CVB011,Environmental Engineering,86.4,88.6
+23CVB011,Geotechnical Engineering,86.4,89.4
+23CVB011,Structural Analysis,90.4,89.0
+23CVB011,Surveying,86.4,89.6
+23CVB011,Transportation Engineering,84.8,87.0
+23CVB012,Concrete Technology,34.4,21.2
+23CVB012,Environmental Engineering,36.2,23.4
+23CVB012,Geotechnical Engineering,21.8,18.0
+23CVB012,Structural Analysis,31.4,23.6
+23CVB012,Surveying,19.2,25.4
+23CVB012,Transportation Engineering,27.2,33.0
+23CVB013,Concrete Technology,75.4,78.2
+23CVB013,Environmental Engineering,73.6,74.8
+23CVB013,Geotechnical Engineering,77.2,78.0
+23CVB013,Structural Analysis,78.8,77.6
+23CVB013,Surveying,77.0,78.6
+23CVB013,Transportation Engineering,80.6,78.8
+23CVB014,Concrete Technology,72.8,74.6
+23CVB014,Environmental Engineering,71.8,70.8
+23CVB014,Geotechnical Engineering,69.4,74.0
+23CVB014,Structural Analysis,72.0,74.2
+23CVB014,Surveying,74.2,71.6
+23CVB014,Transportation Engineering,75.0,72.6
+23CVB015,Concrete Technology,77.6,82.0
+23CVB015,Environmental Engineering,76.2,78.6
+23CVB015,Geotechnical Engineering,81.4,77.6
+23CVB015,Structural Analysis,81.6,77.0
+23CVB015,Surveying,77.2,78.8
+23CVB015,Transportation Engineering,80.0,80.8
+23CVB016,Concrete Technology,78.0,82.6
+23CVB016,Environmental Engineering,82.0,78.4
+23CVB016,Geotechnical Engineering,79.6,82.6
+23CVB016,Structural Analysis,76.4,79.0
+23CVB016,Surveying,80.4,82.8
+23CVB016,Transportation Engineering,83.0,78.8
+23CVB017,Concrete Technology,66.6,60.2
+23CVB017,Environmental Engineering,63.2,63.4
+23CVB017,Geotechnical Engineering,64.6,64.4
+23CVB017,Structural Analysis,63.0,63.0
+23CVB017,Surveying,60.6,64.6
+23CVB017,Transportation Engineering,62.2,60.8
+23CVB018,Concrete Technology,64.8,68.8
+23CVB018,Environmental Engineering,71.2,64.6
+23CVB018,Geotechnical Engineering,72.4,66.0
+23CVB018,Structural Analysis,67.2,64.8
+23CVB018,Surveying,65.4,69.2
+23CVB018,Transportation Engineering,70.4,64.8
+23CVB019,Concrete Technology,72.8,77.2
+23CVB019,Environmental Engineering,71.6,77.0
+23CVB019,Geotechnical Engineering,78.2,73.2
+23CVB019,Structural Analysis,70.6,75.8
+23CVB019,Surveying,69.6,71.8
+23CVB019,Transportation Engineering,71.0,71.6
+23CVB020,Concrete Technology,79.4,85.0
+23CVB020,Environmental Engineering,83.0,81.6
+23CVB020,Geotechnical Engineering,81.6,83.4
+23CVB020,Structural Analysis,82.0,81.6
+23CVB020,Surveying,83.6,83.0
+23CVB020,Transportation Engineering,81.0,84.2
+23CVB021,Concrete Technology,69.2,66.4
+23CVB021,Environmental Engineering,73.4,70.8
+23CVB021,Geotechnical Engineering,66.8,69.8
+23CVB021,Structural Analysis,67.0,68.6
+23CVB021,Surveying,69.6,69.0
+23CVB021,Transportation Engineering,69.2,65.6
+23CVB022,Concrete Technology,67.0,68.8
+23CVB022,Environmental Engineering,69.4,69.6
+23CVB022,Geotechnical Engineering,71.8,69.0
+23CVB022,Structural Analysis,74.6,70.8
+23CVB022,Surveying,69.0,68.0
+23CVB022,Transportation Engineering,70.4,67.2
+23CVB023,Concrete Technology,63.8,64.0
+23CVB023,Environmental Engineering,63.8,67.8
+23CVB023,Geotechnical Engineering,64.4,62.4
+23CVB023,Structural Analysis,65.0,66.2
+23CVB023,Surveying,64.6,68.2
+23CVB023,Transportation Engineering,65.0,63.8
+23CVB024,Concrete Technology,80.2,74.8
+23CVB024,Environmental Engineering,80.2,79.6
+23CVB024,Geotechnical Engineering,75.6,76.0
+23CVB024,Structural Analysis,74.8,77.0
+23CVB024,Surveying,73.8,80.4
+23CVB024,Transportation Engineering,74.4,76.6
+23CVB025,Concrete Technology,68.0,69.2
+23CVB025,Environmental Engineering,68.0,68.0
+23CVB025,Geotechnical Engineering,70.8,71.0
+23CVB025,Structural Analysis,67.6,67.0
+23CVB025,Surveying,65.4,71.6
+23CVB025,Transportation Engineering,70.2,68.4
+23CVB026,Concrete Technology,27.4,27.0
+23CVB026,Environmental Engineering,20.4,31.0
+23CVB026,Geotechnical Engineering,20.2,21.6
+23CVB026,Structural Analysis,34.6,33.0
+23CVB026,Surveying,18.0,28.0
+23CVB026,Transportation Engineering,27.8,22.8
+23CVB027,Concrete Technology,82.0,85.6
+23CVB027,Environmental Engineering,90.4,85.4
+23CVB027,Geotechnical Engineering,84.4,85.8
+23CVB027,Structural Analysis,89.6,85.8
+23CVB027,Surveying,89.6,84.2
+23CVB027,Transportation Engineering,81.8,84.0
+23CVB028,Concrete Technology,74.2,75.0
+23CVB028,Environmental Engineering,74.4,76.8
+23CVB028,Geotechnical Engineering,71.8,74.6
+23CVB028,Structural Analysis,79.6,78.0
+23CVB028,Surveying,76.6,76.0
+23CVB028,Transportation Engineering,73.2,75.8
+23CVB029,Concrete Technology,75.0,73.8
+23CVB029,Environmental Engineering,68.4,74.6
+23CVB029,Geotechnical Engineering,68.8,75.6
+23CVB029,Structural Analysis,73.8,71.2
+23CVB029,Surveying,72.8,71.6
+23CVB029,Transportation Engineering,73.6,75.6
+23CVB030,Concrete Technology,78.8,81.6
+23CVB030,Environmental Engineering,77.8,79.6
+23CVB030,Geotechnical Engineering,78.6,78.4
+23CVB030,Structural Analysis,86.2,82.2
+23CVB030,Surveying,81.0,81.4
+23CVB030,Transportation Engineering,78.0,78.4
+23ECA001,Communication Theory,77.2,75.4
+23ECA001,Control Systems,68.6,74.2
+23ECA001,Digital Electronics,74.8,75.2
+23ECA001,Electromagnetics,73.6,75.2
+23ECA001,Microprocessors,74.6,75.2
+23ECA001,Signals & Systems,70.4,74.2
+23ECA002,Communication Theory,72.4,69.4
+23ECA002,Control Systems,69.2,69.4
+23ECA002,Digital Electronics,73.6,69.2
+23ECA002,Electromagnetics,69.4,68.4
+23ECA002,Microprocessors,71.4,73.2
+23ECA002,Signals & Systems,71.6,70.6
+23ECA003,Communication Theory,62.8,68.0
+23ECA003,Control Systems,64.0,68.2
+23ECA003,Digital Electronics,63.6,65.8
+23ECA003,Electromagnetics,64.4,67.2
+23ECA003,Microprocessors,61.4,63.8
+23ECA003,Signals & Systems,64.8,67.2
+23ECA004,Communication Theory,65.6,62.4
+23ECA004,Control Systems,60.6,63.2
+23ECA004,Digital Electronics,64.0,60.8
+23ECA004,Electromagnetics,68.4,63.2
+23ECA004,Microprocessors,65.0,64.4
+23ECA004,Signals & Systems,63.4,63.4
+23ECA005,Communication Theory,86.6,89.4
+23ECA005,Control Systems,82.4,84.0
+23ECA005,Digital Electronics,86.0,87.6
+23ECA005,Electromagnetics,82.0,89.4
+23ECA005,Microprocessors,88.0,90.0
+23ECA005,Signals & Systems,89.0,86.4
+23ECA006,Communication Theory,73.4,73.0
+23ECA006,Control Systems,72.0,77.4
+23ECA006,Digital Electronics,75.8,75.0
+23ECA006,Electromagnetics,73.6,74.8
+23ECA006,Microprocessors,75.4,73.6
+23ECA006,Signals & Systems,74.4,76.2
+23ECA007,Communication Theory,82.2,79.8
+23ECA007,Control Systems,81.2,82.6
+23ECA007,Digital Electronics,82.0,84.6
+23ECA007,Electromagnetics,78.4,81.4
+23ECA007,Microprocessors,82.2,83.8
+23ECA007,Signals & Systems,86.0,84.2
+23ECA008,Communication Theory,69.4,71.0
+23ECA008,Control Systems,69.2,72.6
+23ECA008,Digital Electronics,67.2,72.6
+23ECA008,Electromagnetics,71.8,71.0
+23ECA008,Microprocessors,69.4,70.4
+23ECA008,Signals & Systems,69.8,70.4
+23ECA009,Communication Theory,69.4,68.4
+23ECA009,Control Systems,71.0,71.4
+23ECA009,Digital Electronics,75.2,70.6
+23ECA009,Electromagnetics,72.6,68.0
+23ECA009,Microprocessors,72.0,70.0
+23ECA009,Signals & Systems,71.2,68.2
+23ECA010,Communication Theory,60.2,66.6
+23ECA010,Control Systems,61.8,65.4
+23ECA010,Digital Electronics,66.4,62.4
+23ECA010,Electromagnetics,62.8,65.8
+23ECA010,Microprocessors,63.8,65.6
+23ECA010,Signals & Systems,65.0,63.8
+23ECA011,Communication Theory,77.6,80.2
+23ECA011,Control Systems,77.8,75.8
+23ECA011,Digital Electronics,78.2,79.0
+23ECA011,Electromagnetics,79.2,81.4
+23ECA011,Microprocessors,73.6,75.8
+23ECA011,Signals & Systems,79.0,77.4
+23ECA012,Communication Theory,84.8,87.0
+23ECA012,Control Systems,81.2,85.8
+23ECA012,Digital Electronics,87.2,81.6
+23ECA012,Electromagnetics,84.6,86.2
+23ECA012,Microprocessors,86.4,87.2
+23ECA012,Signals & Systems,80.6,84.4
+23ECA013,Communication Theory,75.6,75.8
+23ECA013,Control Systems,73.8,76.2
+23ECA013,Digital Electronics,71.4,77.4
+23ECA013,Electromagnetics,72.2,76.6
+23ECA013,Microprocessors,79.8,76.0
+23ECA013,Signals & Systems,78.8,73.2
+23ECA014,Communication Theory,71.4,66.4
+23ECA014,Control Systems,68.0,67.2
+23ECA014,Digital Electronics,70.2,64.8
+23ECA014,Electromagnetics,65.4,65.6
+23ECA014,Microprocessors,65.8,68.0
+23ECA014,Signals & Systems,66.2,67.8
+23ECA015,Communication Theory,82.6,78.6
+23ECA015,Control Systems,82.6,79.8
+23ECA015,Digital Electronics,82.0,83.8
+23ECA015,Electromagnetics,81.8,81.0
+23ECA015,Microprocessors,77.8,78.0
+23ECA015,Signals & Systems,84.8,82.4
+23ECA016,Communication Theory,78.2,81.6
+23ECA016,Control Systems,81.2,81.2
+23ECA016,Digital Electronics,82.8,83.0
+23ECA016,Electromagnetics,81.8,84.2
+23ECA016,Microprocessors,85.0,81.2
+23ECA016,Signals & Systems,87.4,86.2
+23ECA017,Communication Theory,61.4,62.8
+23ECA017,Control Systems,60.6,61.8
+23ECA017,Digital Electronics,67.0,62.0
+23ECA017,Electromagnetics,68.8,60.8
+23ECA017,Microprocessors,65.4,61.6
+23ECA017,Signals & Systems,62.4,62.8
+23ECA018,Communication Theory,92.0,91.0
+23ECA018,Control Systems,90.6,91.6
+23ECA018,Digital Electronics,93.6,91.4
+23ECA018,Electromagnetics,86.8,91.8
+23ECA018,Microprocessors,87.8,88.6
+23ECA018,Signals & Systems,89.4,87.8
+23ECA019,Communication Theory,87.6,87.8
+23ECA019,Control Systems,90.8,85.4
+23ECA019,Digital Electronics,87.2,90.4
+23ECA019,Electromagnetics,88.2,85.8
+23ECA019,Microprocessors,90.6,85.6
+23ECA019,Signals & Systems,90.2,84.8
+23ECA020,Communication Theory,80.6,82.6
+23ECA020,Control Systems,81.0,81.2
+23ECA020,Digital Electronics,80.6,82.8
+23ECA020,Electromagnetics,86.4,81.2
+23ECA020,Microprocessors,77.8,82.6
+23ECA020,Signals & Systems,78.8,78.4
+23ECA021,Communication Theory,93.0,90.0
+23ECA021,Control Systems,85.4,88.6
+23ECA021,Digital Electronics,86.4,88.0
+23ECA021,Electromagnetics,85.6,86.0
+23ECA021,Microprocessors,85.2,87.0
+23ECA021,Signals & Systems,87.2,88.2
+23ECA022,Communication Theory,65.2,42.4
+23ECA022,Control Systems,65.4,45.2
+23ECA022,Digital Electronics,80.0,53.6
+23ECA022,Electromagnetics,69.0,49.4
+23ECA022,Microprocessors,72.0,47.0
+23ECA022,Signals & Systems,67.0,42.4
+23ECA023,Communication Theory,88.6,55.8
+23ECA023,Control Systems,79.6,49.6
+23ECA023,Digital Electronics,79.2,56.0
+23ECA023,Electromagnetics,70.0,46.4
+23ECA023,Microprocessors,79.8,55.6
+23ECA023,Signals & Systems,68.6,45.4
+23ECA024,Communication Theory,72.8,75.6
+23ECA024,Control Systems,73.0,76.4
+23ECA024,Digital Electronics,75.2,71.6
+23ECA024,Electromagnetics,76.2,75.2
+23ECA024,Microprocessors,72.2,72.6
+23ECA024,Signals & Systems,72.0,73.8
+23ECA025,Communication Theory,72.2,77.2
+23ECA025,Control Systems,76.8,77.4
+23ECA025,Digital Electronics,72.6,73.2
+23ECA025,Electromagnetics,77.2,76.6
+23ECA025,Microprocessors,75.6,71.6
+23ECA025,Signals & Systems,75.6,73.4
+23ECA026,Communication Theory,62.6,65.4
+23ECA026,Control Systems,60.8,63.8
+23ECA026,Digital Electronics,62.4,61.4
+23ECA026,Electromagnetics,58.0,63.8
+23ECA026,Microprocessors,59.0,62.6
+23ECA026,Signals & Systems,61.0,65.0
+23ECA027,Communication Theory,72.2,73.2
+23ECA027,Control Systems,69.0,71.6
+23ECA027,Digital Electronics,76.0,71.0
+23ECA027,Electromagnetics,74.6,70.0
+23ECA027,Microprocessors,71.6,73.6
+23ECA027,Signals & Systems,69.2,75.2
+23ECA028,Communication Theory,66.6,61.8
+23ECA028,Control Systems,63.4,61.6
+23ECA028,Digital Electronics,62.8,65.4
+23ECA028,Electromagnetics,60.0,62.6
+23ECA028,Microprocessors,64.0,66.8
+23ECA028,Signals & Systems,62.2,63.6
+23ECA029,Communication Theory,72.0,74.8
+23ECA029,Control Systems,69.6,74.2
+23ECA029,Digital Electronics,72.6,71.2
+23ECA029,Electromagnetics,73.2,75.2
+23ECA029,Microprocessors,78.4,75.2
+23ECA029,Signals & Systems,70.2,75.8
+23ECA030,Communication Theory,81.2,77.0
+23ECA030,Control Systems,82.2,76.6
+23ECA030,Digital Electronics,74.2,77.4
+23ECA030,Electromagnetics,81.0,78.6
+23ECA030,Microprocessors,77.0,79.6
+23ECA030,Signals & Systems,76.0,73.8
+23ECB001,Communication Theory,75.0,74.6
+23ECB001,Control Systems,71.8,75.0
+23ECB001,Digital Electronics,72.8,72.4
+23ECB001,Electromagnetics,73.2,74.4
+23ECB001,Microprocessors,72.2,72.8
+23ECB001,Signals & Systems,71.8,73.8
+23ECB002,Communication Theory,74.2,73.0
+23ECB002,Control Systems,78.0,76.0
+23ECB002,Digital Electronics,71.0,74.4
+23ECB002,Electromagnetics,74.8,75.2
+23ECB002,Microprocessors,74.0,75.4
+23ECB002,Signals & Systems,75.8,75.8
+23ECB003,Communication Theory,68.0,63.0
+23ECB003,Control Systems,65.6,65.6
+23ECB003,Digital Electronics,68.8,68.0
+23ECB003,Electromagnetics,66.8,64.2
+23ECB003,Microprocessors,62.2,62.6
+23ECB003,Signals & Systems,64.6,64.6
+23ECB004,Communication Theory,67.4,70.2
+23ECB004,Control Systems,67.6,69.8
+23ECB004,Digital Electronics,68.2,71.8
+23ECB004,Electromagnetics,73.4,71.4
+23ECB004,Microprocessors,69.0,69.2
+23ECB004,Signals & Systems,71.8,71.4
+23ECB005,Communication Theory,70.2,67.6
+23ECB005,Control Systems,69.4,70.0
+23ECB005,Digital Electronics,70.6,71.0
+23ECB005,Electromagnetics,70.2,71.8
+23ECB005,Microprocessors,67.6,66.0
+23ECB005,Signals & Systems,68.2,67.6
+23ECB006,Communication Theory,80.6,77.4
+23ECB006,Control Systems,79.0,78.6
+23ECB006,Digital Electronics,84.2,77.8
+23ECB006,Electromagnetics,79.8,83.2
+23ECB006,Microprocessors,82.4,77.8
+23ECB006,Signals & Systems,79.6,80.8
+23ECB007,Communication Theory,86.2,87.6
+23ECB007,Control Systems,87.0,85.6
+23ECB007,Digital Electronics,90.2,86.4
+23ECB007,Electromagnetics,88.6,87.2
+23ECB007,Microprocessors,87.2,88.4
+23ECB007,Signals & Systems,91.4,86.6
+23ECB008,Communication Theory,75.6,75.0
+23ECB008,Control Systems,76.2,76.8
+23ECB008,Digital Electronics,73.6,75.0
+23ECB008,Electromagnetics,74.0,75.8
+23ECB008,Microprocessors,74.8,74.8
+23ECB008,Signals & Systems,75.0,75.8
+23ECB009,Communication Theory,69.6,74.6
+23ECB009,Control Systems,71.2,71.4
+23ECB009,Digital Electronics,71.6,76.2
+23ECB009,Electromagnetics,76.2,72.2
+23ECB009,Microprocessors,70.0,73.8
+23ECB009,Signals & Systems,72.8,76.4
+23ECB010,Communication Theory,81.2,86.8
+23ECB010,Control Systems,89.2,84.0
+23ECB010,Digital Electronics,84.4,83.2
+23ECB010,Electromagnetics,86.4,84.8
+23ECB010,Microprocessors,87.4,85.0
+23ECB010,Signals & Systems,82.4,87.0
+23ECB011,Communication Theory,91.0,89.2
+23ECB011,Control Systems,87.4,87.4
+23ECB011,Digital Electronics,88.0,87.8
+23ECB011,Electromagnetics,87.6,89.6
+23ECB011,Microprocessors,87.0,85.2
+23ECB011,Signals & Systems,88.2,89.0
+23ECB012,Communication Theory,84.4,89.4
+23ECB012,Control Systems,87.2,88.8
+23ECB012,Digital Electronics,89.0,89.2
+23ECB012,Electromagnetics,89.8,89.2
+23ECB012,Microprocessors,91.0,89.0
+23ECB012,Signals & Systems,88.2,85.6
+23ECB013,Communication Theory,59.4,64.4
+23ECB013,Control Systems,61.2,62.8
+23ECB013,Digital Electronics,65.4,63.6
+23ECB013,Electromagnetics,66.6,62.6
+23ECB013,Microprocessors,62.8,63.2
+23ECB013,Signals & Systems,66.6,65.6
+23ECB014,Communication Theory,78.4,52.6
+23ECB014,Control Systems,82.2,50.0
+23ECB014,Digital Electronics,73.6,45.0
+23ECB014,Electromagnetics,71.8,40.8
+23ECB014,Microprocessors,81.6,57.6
+23ECB014,Signals & Systems,88.4,49.6
+23ECB015,Communication Theory,62.6,69.8
+23ECB015,Control Systems,64.8,68.6
+23ECB015,Digital Electronics,64.4,67.6
+23ECB015,Electromagnetics,62.4,66.4
+23ECB015,Microprocessors,69.8,64.8
+23ECB015,Signals & Systems,63.2,69.6
+23ECB016,Communication Theory,67.2,67.2
+23ECB016,Control Systems,65.2,65.6
+23ECB016,Digital Electronics,62.8,64.4
+23ECB016,Electromagnetics,65.8,63.8
+23ECB016,Microprocessors,66.8,67.8
+23ECB016,Signals & Systems,65.6,67.2
+23ECB017,Communication Theory,65.4,66.0
+23ECB017,Control Systems,65.8,65.6
+23ECB017,Digital Electronics,62.6,68.8
+23ECB017,Electromagnetics,68.4,63.2
+23ECB017,Microprocessors,64.4,67.8
+23ECB017,Signals & Systems,68.8,68.8
+23ECB018,Communication Theory,78.0,78.6
+23ECB018,Control Systems,77.2,74.4
+23ECB018,Digital Electronics,82.2,76.0
+23ECB018,Electromagnetics,77.8,75.0
+23ECB018,Microprocessors,75.2,75.4
+23ECB018,Signals & Systems,79.6,75.8
+23ECB019,Communication Theory,87.8,90.6
+23ECB019,Control Systems,92.0,90.8
+23ECB019,Digital Electronics,91.6,92.8
+23ECB019,Electromagnetics,92.8,90.8
+23ECB019,Microprocessors,89.6,92.0
+23ECB019,Signals & Systems,88.6,92.6
+23ECB020,Communication Theory,80.0,77.8
+23ECB020,Control Systems,79.0,82.6
+23ECB020,Digital Electronics,76.0,80.6
+23ECB020,Electromagnetics,80.2,82.8
+23ECB020,Microprocessors,81.2,79.6
+23ECB020,Signals & Systems,81.6,77.6
+23ECB021,Communication Theory,87.4,86.6
+23ECB021,Control Systems,87.8,88.0
+23ECB021,Digital Electronics,87.8,86.6
+23ECB021,Electromagnetics,85.2,86.0
+23ECB021,Microprocessors,87.8,86.8
+23ECB021,Signals & Systems,85.2,85.4
+23ECB022,Communication Theory,63.8,65.4
+23ECB022,Control Systems,64.0,60.4
+23ECB022,Digital Electronics,63.8,61.0
+23ECB022,Electromagnetics,63.0,60.6
+23ECB022,Microprocessors,62.6,60.2
+23ECB022,Signals & Systems,59.2,60.2
+23ECB023,Communication Theory,80.8,77.0
+23ECB023,Control Systems,76.8,77.6
+23ECB023,Digital Electronics,83.2,77.0
+23ECB023,Electromagnetics,82.4,81.0
+23ECB023,Microprocessors,78.8,79.2
+23ECB023,Signals & Systems,78.8,77.2
+23ECB024,Communication Theory,75.2,73.4
+23ECB024,Control Systems,71.8,74.8
+23ECB024,Digital Electronics,79.2,75.4
+23ECB024,Electromagnetics,73.6,71.4
+23ECB024,Microprocessors,73.8,75.4
+23ECB024,Signals & Systems,73.8,75.6
+23ECB025,Communication Theory,74.2,73.8
+23ECB025,Control Systems,74.0,68.8
+23ECB025,Digital Electronics,67.6,68.2
+23ECB025,Electromagnetics,73.6,72.4
+23ECB025,Microprocessors,72.2,69.4
+23ECB025,Signals & Systems,69.4,71.2
+23ECB026,Communication Theory,86.6,53.4
+23ECB026,Control Systems,79.2,49.2
+23ECB026,Digital Electronics,65.6,42.4
+23ECB026,Electromagnetics,89.6,60.2
+23ECB026,Microprocessors,85.2,58.0
+23ECB026,Signals & Systems,83.2,48.2
+23ECB027,Communication Theory,89.0,91.6
+23ECB027,Control Systems,88.2,90.6
+23ECB027,Digital Electronics,88.6,87.4
+23ECB027,Electromagnetics,86.2,87.2
+23ECB027,Microprocessors,86.6,91.6
+23ECB027,Signals & Systems,89.8,87.2
+23ECB028,Communication Theory,79.0,80.2
+23ECB028,Control Systems,82.4,80.8
+23ECB028,Digital Electronics,82.2,81.8
+23ECB028,Electromagnetics,79.2,80.8
+23ECB028,Microprocessors,82.4,84.2
+23ECB028,Signals & Systems,81.8,83.4
+23ECB029,Communication Theory,89.8,86.6
+23ECB029,Control Systems,87.0,86.2
+23ECB029,Digital Electronics,85.6,87.2
+23ECB029,Electromagnetics,91.2,88.8
+23ECB029,Microprocessors,88.6,84.6
+23ECB029,Signals & Systems,87.6,84.6
+23ECB030,Communication Theory,84.8,52.2
+23ECB030,Control Systems,75.0,45.0
+23ECB030,Digital Electronics,87.0,52.2
+23ECB030,Electromagnetics,84.4,54.4
+23ECB030,Microprocessors,69.6,49.4
+23ECB030,Signals & Systems,76.2,47.6
+23EEA001,Circuit Theory,81.2,80.4
+23EEA001,Control Engineering,79.4,76.2
+23EEA001,Electrical Machines,80.8,75.6
+23EEA001,Measurements & Instrumentation,74.6,75.0
+23EEA001,Power Electronics,77.0,76.0
+23EEA001,Power Systems,77.2,77.2
+23EEA002,Circuit Theory,76.8,72.8
+23EEA002,Control Engineering,71.2,75.8
+23EEA002,Electrical Machines,75.4,74.6
+23EEA002,Measurements & Instrumentation,72.6,74.2
+23EEA002,Power Electronics,77.0,75.0
+23EEA002,Power Systems,76.0,74.6
+23EEA003,Circuit Theory,72.8,69.6
+23EEA003,Control Engineering,69.8,68.2
+23EEA003,Electrical Machines,68.4,71.2
+23EEA003,Measurements & Instrumentation,69.0,66.6
+23EEA003,Power Electronics,66.6,68.0
+23EEA003,Power Systems,63.0,69.0
+23EEA004,Circuit Theory,90.0,86.8
+23EEA004,Control Engineering,85.0,83.6
+23EEA004,Electrical Machines,87.6,89.4
+23EEA004,Measurements & Instrumentation,84.0,88.4
+23EEA004,Power Electronics,86.4,86.0
+23EEA004,Power Systems,83.2,88.6
+23EEA005,Circuit Theory,80.4,79.4
+23EEA005,Control Engineering,80.4,80.0
+23EEA005,Electrical Machines,83.0,82.6
+23EEA005,Measurements & Instrumentation,79.4,82.0
+23EEA005,Power Electronics,80.8,80.4
+23EEA005,Power Systems,79.6,83.6
+23EEA006,Circuit Theory,74.8,76.2
+23EEA006,Control Engineering,72.0,73.0
+23EEA006,Electrical Machines,71.4,75.0
+23EEA006,Measurements & Instrumentation,72.8,74.2
+23EEA006,Power Electronics,77.8,75.8
+23EEA006,Power Systems,73.0,75.4
+23EEA007,Circuit Theory,82.4,77.8
+23EEA007,Control Engineering,78.6,80.0
+23EEA007,Electrical Machines,76.0,76.4
+23EEA007,Measurements & Instrumentation,77.4,82.0
+23EEA007,Power Electronics,81.0,77.2
+23EEA007,Power Systems,79.0,78.6
+23EEA008,Circuit Theory,30.4,22.0
+23EEA008,Control Engineering,30.6,37.4
+23EEA008,Electrical Machines,27.4,26.6
+23EEA008,Measurements & Instrumentation,23.0,30.4
+23EEA008,Power Electronics,38.0,28.4
+23EEA008,Power Systems,35.4,26.8
+23EEA009,Circuit Theory,86.0,89.8
+23EEA009,Control Engineering,89.6,85.4
+23EEA009,Electrical Machines,87.6,90.0
+23EEA009,Measurements & Instrumentation,84.4,84.8
+23EEA009,Power Electronics,88.2,85.0
+23EEA009,Power Systems,89.2,87.4
+23EEA010,Circuit Theory,84.6,88.4
+23EEA010,Control Engineering,86.6,89.0
+23EEA010,Electrical Machines,90.6,90.8
+23EEA010,Measurements & Instrumentation,87.8,88.4
+23EEA010,Power Electronics,83.8,90.6
+23EEA010,Power Systems,91.4,89.8
+23EEA011,Circuit Theory,71.0,44.8
+23EEA011,Control Engineering,78.0,53.8
+23EEA011,Electrical Machines,79.6,47.0
+23EEA011,Measurements & Instrumentation,74.2,46.0
+23EEA011,Power Electronics,81.0,55.6
+23EEA011,Power Systems,89.6,59.6
+23EEA012,Circuit Theory,72.6,76.4
+23EEA012,Control Engineering,72.2,70.8
+23EEA012,Electrical Machines,73.4,76.2
+23EEA012,Measurements & Instrumentation,71.8,73.2
+23EEA012,Power Electronics,76.4,74.6
+23EEA012,Power Systems,72.6,74.6
+23EEA013,Circuit Theory,86.0,82.2
+23EEA013,Control Engineering,83.8,86.4
+23EEA013,Electrical Machines,79.4,81.4
+23EEA013,Measurements & Instrumentation,84.0,81.8
+23EEA013,Power Electronics,84.2,81.8
+23EEA013,Power Systems,84.8,86.0
+23EEA014,Circuit Theory,83.0,85.0
+23EEA014,Control Engineering,85.6,85.8
+23EEA014,Electrical Machines,83.8,81.8
+23EEA014,Measurements & Instrumentation,84.6,84.2
+23EEA014,Power Electronics,80.8,85.0
+23EEA014,Power Systems,84.4,84.6
+23EEA015,Circuit Theory,76.8,74.0
+23EEA015,Control Engineering,73.8,73.6
+23EEA015,Electrical Machines,72.2,74.2
+23EEA015,Measurements & Instrumentation,74.4,72.2
+23EEA015,Power Electronics,73.4,74.0
+23EEA015,Power Systems,77.8,71.2
+23EEA016,Circuit Theory,82.6,86.4
+23EEA016,Control Engineering,80.6,84.0
+23EEA016,Electrical Machines,83.0,83.2
+23EEA016,Measurements & Instrumentation,83.4,83.4
+23EEA016,Power Electronics,84.4,84.8
+23EEA016,Power Systems,84.4,87.6
+23EEA017,Circuit Theory,88.8,53.2
+23EEA017,Control Engineering,87.2,51.8
+23EEA017,Electrical Machines,83.4,58.0
+23EEA017,Measurements & Instrumentation,75.4,47.6
+23EEA017,Power Electronics,82.8,56.0
+23EEA017,Power Systems,73.0,44.6
+23EEA018,Circuit Theory,79.2,77.4
+23EEA018,Control Engineering,80.0,82.0
+23EEA018,Electrical Machines,80.0,77.4
+23EEA018,Measurements & Instrumentation,81.2,77.8
+23EEA018,Power Electronics,82.0,81.8
+23EEA018,Power Systems,80.6,82.8
+23EEA019,Circuit Theory,87.8,60.6
+23EEA019,Control Engineering,66.2,42.0
+23EEA019,Electrical Machines,66.0,43.0
+23EEA019,Measurements & Instrumentation,92.0,59.4
+23EEA019,Power Electronics,70.2,49.0
+23EEA019,Power Systems,84.8,48.4
+23EEA020,Circuit Theory,82.0,75.2
+23EEA020,Control Engineering,72.0,76.8
+23EEA020,Electrical Machines,75.4,79.2
+23EEA020,Measurements & Instrumentation,76.4,77.6
+23EEA020,Power Electronics,72.2,78.2
+23EEA020,Power Systems,73.2,77.4
+23EEA021,Circuit Theory,62.6,61.0
+23EEA021,Control Engineering,67.0,65.2
+23EEA021,Electrical Machines,67.6,65.2
+23EEA021,Measurements & Instrumentation,65.2,66.6
+23EEA021,Power Electronics,58.2,62.0
+23EEA021,Power Systems,68.4,61.2
+23EEA022,Circuit Theory,64.2,65.8
+23EEA022,Control Engineering,61.0,63.0
+23EEA022,Electrical Machines,64.4,61.6
+23EEA022,Measurements & Instrumentation,63.0,65.6
+23EEA022,Power Electronics,59.4,63.8
+23EEA022,Power Systems,63.2,62.8
+23EEA023,Circuit Theory,72.0,70.0
+23EEA023,Control Engineering,68.8,70.2
+23EEA023,Electrical Machines,73.2,73.4
+23EEA023,Measurements & Instrumentation,68.8,71.6
+23EEA023,Power Electronics,71.8,69.0
+23EEA023,Power Systems,71.0,72.6
+23EEA024,Circuit Theory,79.2,79.4
+23EEA024,Control Engineering,80.2,81.0
+23EEA024,Electrical Machines,82.2,84.2
+23EEA024,Measurements & Instrumentation,85.2,79.4
+23EEA024,Power Electronics,86.8,84.4
+23EEA024,Power Systems,77.8,80.6
+23EEA025,Circuit Theory,75.0,74.2
+23EEA025,Control Engineering,73.0,77.0
+23EEA025,Electrical Machines,72.8,72.8
+23EEA025,Measurements & Instrumentation,76.2,74.2
+23EEA025,Power Electronics,78.6,76.6
+23EEA025,Power Systems,79.0,77.4
+23EEA026,Circuit Theory,76.2,74.8
+23EEA026,Control Engineering,81.4,73.8
+23EEA026,Electrical Machines,74.2,76.4
+23EEA026,Measurements & Instrumentation,75.8,78.6
+23EEA026,Power Electronics,74.2,75.6
+23EEA026,Power Systems,71.8,75.2
+23EEA027,Circuit Theory,71.2,68.8
+23EEA027,Control Engineering,65.2,67.0
+23EEA027,Electrical Machines,73.2,70.0
+23EEA027,Measurements & Instrumentation,69.8,68.4
+23EEA027,Power Electronics,70.2,70.8
+23EEA027,Power Systems,70.8,69.8
+23EEA028,Circuit Theory,67.8,67.4
+23EEA028,Control Engineering,69.6,69.2
+23EEA028,Electrical Machines,72.6,70.2
+23EEA028,Measurements & Instrumentation,69.4,66.4
+23EEA028,Power Electronics,69.0,71.8
+23EEA028,Power Systems,68.6,71.0
+23EEA029,Circuit Theory,80.2,81.0
+23EEA029,Control Engineering,81.2,77.2
+23EEA029,Electrical Machines,79.2,77.8
+23EEA029,Measurements & Instrumentation,77.0,77.6
+23EEA029,Power Electronics,77.2,77.6
+23EEA029,Power Systems,78.2,81.0
+23EEA030,Circuit Theory,75.6,54.0
+23EEA030,Control Engineering,80.6,49.8
+23EEA030,Electrical Machines,84.2,51.0
+23EEA030,Measurements & Instrumentation,81.0,45.4
+23EEA030,Power Electronics,73.4,41.0
+23EEA030,Power Systems,85.6,50.0
+23EEB001,Circuit Theory,67.8,70.0
+23EEB001,Control Engineering,72.0,74.2
+23EEB001,Electrical Machines,72.8,74.8
+23EEB001,Measurements & Instrumentation,76.0,69.6
+23EEB001,Power Electronics,68.8,72.2
+23EEB001,Power Systems,66.8,71.2
+23EEB002,Circuit Theory,60.2,62.4
+23EEB002,Control Engineering,61.8,65.4
+23EEB002,Electrical Machines,64.4,61.0
+23EEB002,Measurements & Instrumentation,67.0,63.0
+23EEB002,Power Electronics,63.8,61.8
+23EEB002,Power Systems,62.4,65.2
+23EEB003,Circuit Theory,82.4,86.4
+23EEB003,Control Engineering,87.4,82.8
+23EEB003,Electrical Machines,87.0,85.2
+23EEB003,Measurements & Instrumentation,86.0,85.4
+23EEB003,Power Electronics,83.4,86.0
+23EEB003,Power Systems,86.6,83.8
+23EEB004,Circuit Theory,64.8,63.8
+23EEB004,Control Engineering,66.4,67.8
+23EEB004,Electrical Machines,61.4,67.4
+23EEB004,Measurements & Instrumentation,64.6,68.4
+23EEB004,Power Electronics,66.0,66.4
+23EEB004,Power Systems,68.0,68.8
+23EEB005,Circuit Theory,81.6,83.4
+23EEB005,Control Engineering,85.6,84.2
+23EEB005,Electrical Machines,84.8,83.0
+23EEB005,Measurements & Instrumentation,84.0,85.2
+23EEB005,Power Electronics,83.2,84.0
+23EEB005,Power Systems,85.2,82.0
+23EEB006,Circuit Theory,88.2,87.2
+23EEB006,Control Engineering,85.8,89.6
+23EEB006,Electrical Machines,85.4,87.6
+23EEB006,Measurements & Instrumentation,88.4,88.6
+23EEB006,Power Electronics,90.4,87.8
+23EEB006,Power Systems,86.0,89.2
+23EEB007,Circuit Theory,68.6,39.4
+23EEB007,Control Engineering,83.4,54.8
+23EEB007,Electrical Machines,80.4,50.8
+23EEB007,Measurements & Instrumentation,80.2,55.4
+23EEB007,Power Electronics,83.6,56.6
+23EEB007,Power Systems,81.4,48.6
+23EEB008,Circuit Theory,69.8,69.2
+23EEB008,Control Engineering,66.6,71.6
+23EEB008,Electrical Machines,71.2,66.6
+23EEB008,Measurements & Instrumentation,70.2,66.8
+23EEB008,Power Electronics,66.4,72.0
+23EEB008,Power Systems,64.2,70.8
+23EEB009,Circuit Theory,72.2,43.8
+23EEB009,Control Engineering,89.6,57.8
+23EEB009,Electrical Machines,76.4,47.8
+23EEB009,Measurements & Instrumentation,82.0,47.4
+23EEB009,Power Electronics,74.6,44.8
+23EEB009,Power Systems,89.8,57.6
+23EEB010,Circuit Theory,82.4,85.2
+23EEB010,Control Engineering,86.8,80.2
+23EEB010,Electrical Machines,83.0,80.8
+23EEB010,Measurements & Instrumentation,79.2,82.8
+23EEB010,Power Electronics,84.8,84.6
+23EEB010,Power Systems,79.6,85.8
+23EEB011,Circuit Theory,73.0,76.0
+23EEB011,Control Engineering,76.8,76.8
+23EEB011,Electrical Machines,72.4,77.8
+23EEB011,Measurements & Instrumentation,77.8,74.2
+23EEB011,Power Electronics,80.4,76.4
+23EEB011,Power Systems,74.6,73.0
+23EEB012,Circuit Theory,79.0,79.4
+23EEB012,Control Engineering,80.2,78.4
+23EEB012,Electrical Machines,78.0,78.8
+23EEB012,Measurements & Instrumentation,77.8,76.2
+23EEB012,Power Electronics,80.0,80.0
+23EEB012,Power Systems,76.4,80.8
+23EEB013,Circuit Theory,79.4,77.0
+23EEB013,Control Engineering,74.0,77.0
+23EEB013,Electrical Machines,73.4,76.0
+23EEB013,Measurements & Instrumentation,76.0,78.2
+23EEB013,Power Electronics,81.0,74.4
+23EEB013,Power Systems,80.0,80.0
+23EEB014,Circuit Theory,90.2,84.6
+23EEB014,Control Engineering,88.6,84.6
+23EEB014,Electrical Machines,84.8,85.2
+23EEB014,Measurements & Instrumentation,88.4,87.0
+23EEB014,Power Electronics,90.2,87.0
+23EEB014,Power Systems,88.4,85.4
+23EEB015,Circuit Theory,84.8,90.4
+23EEB015,Control Engineering,89.6,90.8
+23EEB015,Electrical Machines,87.6,90.2
+23EEB015,Measurements & Instrumentation,85.8,90.2
+23EEB015,Power Electronics,87.8,85.2
+23EEB015,Power Systems,85.6,89.4
+23EEB016,Circuit Theory,85.2,84.6
+23EEB016,Control Engineering,80.6,87.8
+23EEB016,Electrical Machines,84.8,85.4
+23EEB016,Measurements & Instrumentation,81.0,84.0
+23EEB016,Power Electronics,85.0,83.2
+23EEB016,Power Systems,86.2,87.8
+23EEB017,Circuit Theory,63.0,63.4
+23EEB017,Control Engineering,64.8,64.4
+23EEB017,Electrical Machines,68.0,65.4
+23EEB017,Measurements & Instrumentation,57.8,64.6
+23EEB017,Power Electronics,61.8,65.6
+23EEB017,Power Systems,64.4,66.2
+23EEB018,Circuit Theory,79.0,75.4
+23EEB018,Control Engineering,80.2,77.6
+23EEB018,Electrical Machines,77.8,77.0
+23EEB018,Measurements & Instrumentation,79.2,80.8
+23EEB018,Power Electronics,81.0,78.6
+23EEB018,Power Systems,79.0,77.6
+23EEB019,Circuit Theory,75.2,73.0
+23EEB019,Control Engineering,70.4,69.8
+23EEB019,Electrical Machines,74.8,72.4
+23EEB019,Measurements & Instrumentation,72.8,73.6
+23EEB019,Power Electronics,72.4,74.4
+23EEB019,Power Systems,68.2,73.6
+23EEB020,Circuit Theory,72.8,71.2
+23EEB020,Control Engineering,72.4,74.0
+23EEB020,Electrical Machines,69.0,69.6
+23EEB020,Measurements & Instrumentation,67.8,70.4
+23EEB020,Power Electronics,72.6,69.8
+23EEB020,Power Systems,70.6,74.2
+23EEB021,Circuit Theory,78.2,77.2
+23EEB021,Control Engineering,77.4,77.6
+23EEB021,Electrical Machines,79.0,78.4
+23EEB021,Measurements & Instrumentation,72.6,78.4
+23EEB021,Power Electronics,78.6,79.2
+23EEB021,Power Systems,74.0,76.0
+23EEB022,Circuit Theory,64.0,64.6
+23EEB022,Control Engineering,62.0,66.4
+23EEB022,Electrical Machines,68.4,63.4
+23EEB022,Measurements & Instrumentation,59.2,65.0
+23EEB022,Power Electronics,65.2,64.2
+23EEB022,Power Systems,61.6,65.0
+23EEB023,Circuit Theory,63.8,62.4
+23EEB023,Control Engineering,61.0,59.6
+23EEB023,Electrical Machines,62.4,60.8
+23EEB023,Measurements & Instrumentation,61.8,65.0
+23EEB023,Power Electronics,59.2,60.6
+23EEB023,Power Systems,60.0,62.8
+23EEB024,Circuit Theory,72.2,69.8
+23EEB024,Control Engineering,73.8,69.4
+23EEB024,Electrical Machines,63.8,66.6
+23EEB024,Measurements & Instrumentation,70.2,71.8
+23EEB024,Power Electronics,69.6,69.8
+23EEB024,Power Systems,70.6,66.2
+23EEB025,Circuit Theory,74.2,74.6
+23EEB025,Control Engineering,74.8,75.0
+23EEB025,Electrical Machines,73.4,75.2
+23EEB025,Measurements & Instrumentation,72.4,73.6
+23EEB025,Power Electronics,68.6,74.8
+23EEB025,Power Systems,70.6,70.8
+23EEB026,Circuit Theory,77.0,80.0
+23EEB026,Control Engineering,80.0,75.6
+23EEB026,Electrical Machines,76.6,80.4
+23EEB026,Measurements & Instrumentation,80.0,77.2
+23EEB026,Power Electronics,78.2,77.8
+23EEB026,Power Systems,77.2,78.0
+23EEB027,Circuit Theory,67.6,71.6
+23EEB027,Control Engineering,72.4,70.2
+23EEB027,Electrical Machines,69.8,70.4
+23EEB027,Measurements & Instrumentation,74.8,75.8
+23EEB027,Power Electronics,71.2,75.2
+23EEB027,Power Systems,73.8,72.6
+23EEB028,Circuit Theory,74.6,71.8
+23EEB028,Control Engineering,72.8,70.4
+23EEB028,Electrical Machines,74.8,68.2
+23EEB028,Measurements & Instrumentation,67.2,73.2
+23EEB028,Power Electronics,68.4,69.6
+23EEB028,Power Systems,74.4,70.2
+23EEB029,Circuit Theory,75.2,80.0
+23EEB029,Control Engineering,79.4,76.0
+23EEB029,Electrical Machines,74.2,78.0
+23EEB029,Measurements & Instrumentation,80.0,78.2
+23EEB029,Power Electronics,75.8,75.4
+23EEB029,Power Systems,74.4,77.8
+23EEB030,Circuit Theory,73.6,80.6
+23EEB030,Control Engineering,77.6,79.0
+23EEB030,Electrical Machines,80.8,76.0
+23EEB030,Measurements & Instrumentation,82.6,77.4
+23EEB030,Power Electronics,76.4,80.8
+23EEB030,Power Systems,74.8,75.0
+23MEA001,Fluid Mechanics,72.8,72.6
+23MEA001,Heat Transfer,73.6,76.6
+23MEA001,Kinematics of Machines,73.6,71.0
+23MEA001,Machine Design,73.4,74.8
+23MEA001,Manufacturing Technology,74.6,73.2
+23MEA001,Thermodynamics,73.6,75.4
+23MEA002,Fluid Mechanics,84.6,85.0
+23MEA002,Heat Transfer,87.8,88.4
+23MEA002,Kinematics of Machines,87.0,85.2
+23MEA002,Machine Design,89.0,85.6
+23MEA002,Manufacturing Technology,87.4,84.0
+23MEA002,Thermodynamics,87.4,86.4
+23MEA003,Fluid Mechanics,83.0,85.8
+23MEA003,Heat Transfer,85.6,85.4
+23MEA003,Kinematics of Machines,85.2,86.8
+23MEA003,Machine Design,85.4,88.2
+23MEA003,Manufacturing Technology,82.4,89.6
+23MEA003,Thermodynamics,88.2,86.4
+23MEA004,Fluid Mechanics,63.0,62.2
+23MEA004,Heat Transfer,63.8,61.0
+23MEA004,Kinematics of Machines,62.8,64.8
+23MEA004,Machine Design,63.6,61.2
+23MEA004,Manufacturing Technology,58.6,62.6
+23MEA004,Thermodynamics,61.2,64.2
+23MEA005,Fluid Mechanics,86.0,88.2
+23MEA005,Heat Transfer,82.2,86.8
+23MEA005,Kinematics of Machines,82.6,88.8
+23MEA005,Machine Design,88.6,88.8
+23MEA005,Manufacturing Technology,87.8,85.8
+23MEA005,Thermodynamics,90.8,85.8
+23MEA006,Fluid Mechanics,88.8,86.4
+23MEA006,Heat Transfer,83.2,90.4
+23MEA006,Kinematics of Machines,87.6,85.8
+23MEA006,Machine Design,86.4,86.4
+23MEA006,Manufacturing Technology,86.4,89.0
+23MEA006,Thermodynamics,92.4,88.0
+23MEA007,Fluid Mechanics,71.4,71.6
+23MEA007,Heat Transfer,65.2,71.8
+23MEA007,Kinematics of Machines,71.2,71.4
+23MEA007,Machine Design,70.4,70.0
+23MEA007,Manufacturing Technology,66.4,72.8
+23MEA007,Thermodynamics,67.2,68.6
+23MEA008,Fluid Mechanics,84.6,81.0
+23MEA008,Heat Transfer,80.6,82.4
+23MEA008,Kinematics of Machines,82.6,82.4
+23MEA008,Machine Design,82.0,84.4
+23MEA008,Manufacturing Technology,82.6,85.6
+23MEA008,Thermodynamics,84.6,83.2
+23MEA009,Fluid Mechanics,81.0,86.4
+23MEA009,Heat Transfer,81.8,85.8
+23MEA009,Kinematics of Machines,80.0,84.6
+23MEA009,Machine Design,80.8,82.2
+23MEA009,Manufacturing Technology,80.8,81.2
+23MEA009,Thermodynamics,88.2,84.2
+23MEA010,Fluid Mechanics,66.8,72.0
+23MEA010,Heat Transfer,74.4,70.6
+23MEA010,Kinematics of Machines,67.6,67.0
+23MEA010,Machine Design,71.8,69.4
+23MEA010,Manufacturing Technology,68.6,68.0
+23MEA010,Thermodynamics,66.8,68.2
+23MEA011,Fluid Mechanics,26.2,34.6
+23MEA011,Heat Transfer,31.8,28.2
+23MEA011,Kinematics of Machines,24.8,27.8
+23MEA011,Machine Design,30.8,29.0
+23MEA011,Manufacturing Technology,31.0,26.4
+23MEA011,Thermodynamics,21.8,24.8
+23MEA012,Fluid Mechanics,82.6,84.0
+23MEA012,Heat Transfer,86.8,89.0
+23MEA012,Kinematics of Machines,83.2,88.2
+23MEA012,Machine Design,85.2,84.8
+23MEA012,Manufacturing Technology,86.8,86.6
+23MEA012,Thermodynamics,82.8,84.6
+23MEA013,Fluid Mechanics,75.6,74.0
+23MEA013,Heat Transfer,72.0,76.4
+23MEA013,Kinematics of Machines,76.8,77.4
+23MEA013,Machine Design,79.2,75.4
+23MEA013,Manufacturing Technology,80.4,77.0
+23MEA013,Thermodynamics,75.4,77.0
+23MEA014,Fluid Mechanics,69.4,62.2
+23MEA014,Heat Transfer,64.8,66.6
+23MEA014,Kinematics of Machines,61.4,66.8
+23MEA014,Machine Design,65.0,65.4
+23MEA014,Manufacturing Technology,63.2,66.8
+23MEA014,Thermodynamics,67.6,62.4
+23MEA015,Fluid Mechanics,84.2,87.0
+23MEA015,Heat Transfer,86.4,89.4
+23MEA015,Kinematics of Machines,88.0,87.4
+23MEA015,Machine Design,86.0,86.6
+23MEA015,Manufacturing Technology,90.2,86.2
+23MEA015,Thermodynamics,85.2,90.2
+23MEA016,Fluid Mechanics,73.6,79.6
+23MEA016,Heat Transfer,79.2,79.2
+23MEA016,Kinematics of Machines,76.2,79.2
+23MEA016,Machine Design,73.4,75.4
+23MEA016,Manufacturing Technology,76.2,78.4
+23MEA016,Thermodynamics,83.4,77.6
+23MEA017,Fluid Mechanics,63.0,59.8
+23MEA017,Heat Transfer,59.4,61.4
+23MEA017,Kinematics of Machines,59.8,59.6
+23MEA017,Machine Design,62.8,59.6
+23MEA017,Manufacturing Technology,58.6,63.8
+23MEA017,Thermodynamics,64.0,63.2
+23MEA018,Fluid Mechanics,83.0,81.2
+23MEA018,Heat Transfer,84.0,78.8
+23MEA018,Kinematics of Machines,79.8,81.4
+23MEA018,Machine Design,75.8,81.4
+23MEA018,Manufacturing Technology,85.2,80.4
+23MEA018,Thermodynamics,79.2,79.8
+23MEA019,Fluid Mechanics,83.6,79.4
+23MEA019,Heat Transfer,82.0,79.6
+23MEA019,Kinematics of Machines,80.2,79.4
+23MEA019,Machine Design,79.8,81.6
+23MEA019,Manufacturing Technology,80.2,81.2
+23MEA019,Thermodynamics,83.4,81.4
+23MEA020,Fluid Mechanics,70.8,70.4
+23MEA020,Heat Transfer,71.2,69.4
+23MEA020,Kinematics of Machines,74.0,73.2
+23MEA020,Machine Design,68.6,70.8
+23MEA020,Manufacturing Technology,67.8,74.0
+23MEA020,Thermodynamics,72.6,70.6
+23MEA021,Fluid Mechanics,87.6,88.4
+23MEA021,Heat Transfer,89.4,85.2
+23MEA021,Kinematics of Machines,84.4,83.2
+23MEA021,Machine Design,90.2,87.2
+23MEA021,Manufacturing Technology,80.8,83.0
+23MEA021,Thermodynamics,84.6,85.2
+23MEA022,Fluid Mechanics,67.8,65.8
+23MEA022,Heat Transfer,66.2,62.8
+23MEA022,Kinematics of Machines,63.4,64.4
+23MEA022,Machine Design,64.6,60.6
+23MEA022,Manufacturing Technology,61.2,60.4
+23MEA022,Thermodynamics,63.0,65.6
+23MEA023,Fluid Mechanics,82.0,82.4
+23MEA023,Heat Transfer,84.2,83.8
+23MEA023,Kinematics of Machines,85.6,83.8
+23MEA023,Machine Design,85.6,87.4
+23MEA023,Manufacturing Technology,86.8,82.4
+23MEA023,Thermodynamics,86.2,85.4
+23MEA024,Fluid Mechanics,87.8,88.8
+23MEA024,Heat Transfer,87.2,90.6
+23MEA024,Kinematics of Machines,90.8,86.6
+23MEA024,Machine Design,93.2,86.6
+23MEA024,Manufacturing Technology,90.2,87.0
+23MEA024,Thermodynamics,93.0,86.4
+23MEA025,Fluid Mechanics,78.8,80.4
+23MEA025,Heat Transfer,82.4,78.2
+23MEA025,Kinematics of Machines,83.4,82.2
+23MEA025,Machine Design,85.8,79.0
+23MEA025,Manufacturing Technology,80.0,80.0
+23MEA025,Thermodynamics,79.2,81.6
+23MEA026,Fluid Mechanics,63.2,60.6
+23MEA026,Heat Transfer,60.6,65.0
+23MEA026,Kinematics of Machines,63.2,63.8
+23MEA026,Machine Design,63.0,61.0
+23MEA026,Manufacturing Technology,59.8,64.4
+23MEA026,Thermodynamics,65.0,61.4
+23MEA027,Fluid Mechanics,79.2,78.6
+23MEA027,Heat Transfer,78.0,77.4
+23MEA027,Kinematics of Machines,78.6,77.6
+23MEA027,Machine Design,76.2,77.4
+23MEA027,Manufacturing Technology,78.0,79.6
+23MEA027,Thermodynamics,79.6,82.6
+23MEA028,Fluid Mechanics,86.0,89.0
+23MEA028,Heat Transfer,87.8,85.4
+23MEA028,Kinematics of Machines,84.0,84.2
+23MEA028,Machine Design,87.8,90.0
+23MEA028,Manufacturing Technology,86.0,85.0
+23MEA028,Thermodynamics,87.8,84.2
+23MEA029,Fluid Mechanics,71.6,73.0
+23MEA029,Heat Transfer,77.0,76.0
+23MEA029,Kinematics of Machines,72.0,71.6
+23MEA029,Machine Design,75.8,73.4
+23MEA029,Manufacturing Technology,73.4,71.4
+23MEA029,Thermodynamics,72.2,71.0
+23MEA030,Fluid Mechanics,88.6,87.2
+23MEA030,Heat Transfer,86.0,86.4
+23MEA030,Kinematics of Machines,90.4,86.4
+23MEA030,Machine Design,84.2,85.8
+23MEA030,Manufacturing Technology,83.6,88.0
+23MEA030,Thermodynamics,86.2,87.0
+23MEB001,Fluid Mechanics,24.2,23.0
+23MEB001,Heat Transfer,36.6,19.4
+23MEB001,Kinematics of Machines,33.8,24.4
+23MEB001,Machine Design,33.8,19.8
+23MEB001,Manufacturing Technology,18.6,22.2
+23MEB001,Thermodynamics,32.2,23.0
+23MEB002,Fluid Mechanics,89.0,86.6
+23MEB002,Heat Transfer,84.2,87.2
+23MEB002,Kinematics of Machines,88.4,86.0
+23MEB002,Machine Design,89.6,89.0
+23MEB002,Manufacturing Technology,87.4,88.6
+23MEB002,Thermodynamics,89.8,90.0
+23MEB003,Fluid Mechanics,76.4,81.4
+23MEB003,Heat Transfer,79.8,79.4
+23MEB003,Kinematics of Machines,78.4,80.8
+23MEB003,Machine Design,78.2,81.4
+23MEB003,Manufacturing Technology,74.8,76.6
+23MEB003,Thermodynamics,80.2,77.0
+23MEB004,Fluid Mechanics,84.8,85.6
+23MEB004,Heat Transfer,83.2,87.4
+23MEB004,Kinematics of Machines,85.8,84.6
+23MEB004,Machine Design,81.2,83.6
+23MEB004,Manufacturing Technology,82.4,82.6
+23MEB004,Thermodynamics,87.0,83.0
+23MEB005,Fluid Mechanics,70.6,73.8
+23MEB005,Heat Transfer,70.4,74.2
+23MEB005,Kinematics of Machines,71.4,73.4
+23MEB005,Machine Design,73.8,75.2
+23MEB005,Manufacturing Technology,73.8,72.0
+23MEB005,Thermodynamics,70.4,73.4
+23MEB006,Fluid Mechanics,84.8,87.0
+23MEB006,Heat Transfer,80.8,85.2
+23MEB006,Kinematics of Machines,81.4,83.6
+23MEB006,Machine Design,82.6,82.2
+23MEB006,Manufacturing Technology,83.8,84.6
+23MEB006,Thermodynamics,79.4,83.4
+23MEB007,Fluid Mechanics,67.6,66.0
+23MEB007,Heat Transfer,69.0,63.2
+23MEB007,Kinematics of Machines,61.2,66.0
+23MEB007,Machine Design,69.0,64.4
+23MEB007,Manufacturing Technology,65.2,68.2
+23MEB007,Thermodynamics,68.6,63.2
+23MEB008,Fluid Mechanics,76.6,76.4
+23MEB008,Heat Transfer,78.0,77.6
+23MEB008,Kinematics of Machines,80.2,76.8
+23MEB008,Machine Design,73.8,75.4
+23MEB008,Manufacturing Technology,74.4,77.0
+23MEB008,Thermodynamics,74.2,78.0
+23MEB009,Fluid Mechanics,71.0,70.0
+23MEB009,Heat Transfer,68.4,67.6
+23MEB009,Kinematics of Machines,69.2,68.6
+23MEB009,Machine Design,69.8,68.2
+23MEB009,Manufacturing Technology,67.6,68.6
+23MEB009,Thermodynamics,68.6,66.8
+23MEB010,Fluid Mechanics,86.4,83.4
+23MEB010,Heat Transfer,84.0,86.8
+23MEB010,Kinematics of Machines,84.0,87.4
+23MEB010,Machine Design,83.8,83.6
+23MEB010,Manufacturing Technology,86.0,87.2
+23MEB010,Thermodynamics,81.2,86.8
+23MEB011,Fluid Mechanics,73.6,66.8
+23MEB011,Heat Transfer,68.0,68.2
+23MEB011,Kinematics of Machines,66.4,70.4
+23MEB011,Machine Design,70.2,68.6
+23MEB011,Manufacturing Technology,66.4,70.6
+23MEB011,Thermodynamics,64.2,69.6
+23MEB012,Fluid Mechanics,78.0,75.2
+23MEB012,Heat Transfer,76.0,77.6
+23MEB012,Kinematics of Machines,80.8,74.4
+23MEB012,Machine Design,75.2,77.4
+23MEB012,Manufacturing Technology,74.2,75.2
+23MEB012,Thermodynamics,76.0,77.6
+23MEB013,Fluid Mechanics,76.8,74.4
+23MEB013,Heat Transfer,76.2,76.0
+23MEB013,Kinematics of Machines,75.4,74.2
+23MEB013,Machine Design,75.8,78.2
+23MEB013,Manufacturing Technology,72.4,75.6
+23MEB013,Thermodynamics,75.4,76.4
+23MEB014,Fluid Mechanics,85.4,90.0
+23MEB014,Heat Transfer,88.4,90.8
+23MEB014,Kinematics of Machines,93.6,92.0
+23MEB014,Machine Design,91.4,88.6
+23MEB014,Manufacturing Technology,92.0,92.6
+23MEB014,Thermodynamics,90.4,88.4
+23MEB015,Fluid Mechanics,81.8,80.6
+23MEB015,Heat Transfer,85.6,79.0
+23MEB015,Kinematics of Machines,84.0,82.0
+23MEB015,Machine Design,81.2,81.4
+23MEB015,Manufacturing Technology,84.4,78.6
+23MEB015,Thermodynamics,84.2,78.6
+23MEB016,Fluid Mechanics,84.0,89.0
+23MEB016,Heat Transfer,83.2,87.6
+23MEB016,Kinematics of Machines,88.0,83.8
+23MEB016,Machine Design,88.6,88.4
+23MEB016,Manufacturing Technology,91.0,85.0
+23MEB016,Thermodynamics,86.2,85.4
+23MEB017,Fluid Mechanics,82.8,80.8
+23MEB017,Heat Transfer,83.8,79.4
+23MEB017,Kinematics of Machines,80.4,82.8
+23MEB017,Machine Design,84.8,83.0
+23MEB017,Manufacturing Technology,78.0,80.4
+23MEB017,Thermodynamics,80.0,83.0
+23MEB018,Fluid Mechanics,87.6,88.8
+23MEB018,Heat Transfer,93.2,90.4
+23MEB018,Kinematics of Machines,87.4,89.6
+23MEB018,Machine Design,83.6,89.8
+23MEB018,Manufacturing Technology,86.0,85.8
+23MEB018,Thermodynamics,86.0,87.2
+23MEB019,Fluid Mechanics,86.0,86.4
+23MEB019,Heat Transfer,87.4,88.2
+23MEB019,Kinematics of Machines,86.2,85.0
+23MEB019,Machine Design,89.2,88.6
+23MEB019,Manufacturing Technology,89.6,89.6
+23MEB019,Thermodynamics,84.4,85.8
+23MEB020,Fluid Mechanics,31.4,26.8
+23MEB020,Heat Transfer,29.8,19.2
+23MEB020,Kinematics of Machines,35.2,23.0
+23MEB020,Machine Design,22.4,33.2
+23MEB020,Manufacturing Technology,22.8,33.8
+23MEB020,Thermodynamics,30.4,28.8
+23MEB021,Fluid Mechanics,66.2,65.6
+23MEB021,Heat Transfer,66.8,69.8
+23MEB021,Kinematics of Machines,63.2,65.6
+23MEB021,Machine Design,67.2,67.8
+23MEB021,Manufacturing Technology,69.8,66.0
+23MEB021,Thermodynamics,69.6,70.6
+23MEB022,Fluid Mechanics,71.8,75.2
+23MEB022,Heat Transfer,76.8,71.6
+23MEB022,Kinematics of Machines,73.4,76.0
+23MEB022,Machine Design,71.4,75.2
+23MEB022,Manufacturing Technology,74.8,74.4
+23MEB022,Thermodynamics,68.0,71.2
+23MEB023,Fluid Mechanics,77.4,73.0
+23MEB023,Heat Transfer,79.4,77.6
+23MEB023,Kinematics of Machines,72.0,75.8
+23MEB023,Machine Design,76.0,72.4
+23MEB023,Manufacturing Technology,79.0,74.2
+23MEB023,Thermodynamics,72.4,75.4
+23MEB024,Fluid Mechanics,79.6,78.2
+23MEB024,Heat Transfer,77.8,83.4
+23MEB024,Kinematics of Machines,77.8,81.6
+23MEB024,Machine Design,81.8,81.6
+23MEB024,Manufacturing Technology,77.8,79.2
+23MEB024,Thermodynamics,84.4,81.2
+23MEB025,Fluid Mechanics,72.4,71.8
+23MEB025,Heat Transfer,75.2,74.6
+23MEB025,Kinematics of Machines,71.8,76.2
+23MEB025,Machine Design,72.8,76.0
+23MEB025,Manufacturing Technology,74.8,75.8
+23MEB025,Thermodynamics,73.4,73.6
+23MEB026,Fluid Mechanics,88.0,87.0
+23MEB026,Heat Transfer,88.6,84.8
+23MEB026,Kinematics of Machines,83.2,84.2
+23MEB026,Machine Design,87.2,88.0
+23MEB026,Manufacturing Technology,84.8,86.0
+23MEB026,Thermodynamics,85.8,86.0
+23MEB027,Fluid Mechanics,85.4,89.4
+23MEB027,Heat Transfer,88.4,87.4
+23MEB027,Kinematics of Machines,86.0,89.0
+23MEB027,Machine Design,89.4,84.0
+23MEB027,Manufacturing Technology,88.2,86.2
+23MEB027,Thermodynamics,85.4,84.2
+23MEB028,Fluid Mechanics,67.6,67.4
+23MEB028,Heat Transfer,65.6,66.4
+23MEB028,Kinematics of Machines,68.6,70.0
+23MEB028,Machine Design,70.0,67.6
+23MEB028,Manufacturing Technology,70.4,67.6
+23MEB028,Thermodynamics,67.4,65.0
+23MEB029,Fluid Mechanics,84.8,88.2
+23MEB029,Heat Transfer,84.8,87.0
+23MEB029,Kinematics of Machines,84.6,86.0
+23MEB029,Machine Design,90.0,88.6
+23MEB029,Manufacturing Technology,89.2,88.2
+23MEB029,Thermodynamics,90.2,89.6
+23MEB030,Fluid Mechanics,71.6,70.6
+23MEB030,Heat Transfer,68.6,68.8
+23MEB030,Kinematics of Machines,71.6,71.2
+23MEB030,Machine Design,72.6,70.4
+23MEB030,Manufacturing Technology,70.8,70.0
+23MEB030,Thermodynamics,71.2,72.2

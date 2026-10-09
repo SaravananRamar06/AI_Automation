@@ -9,17 +9,21 @@ from __future__ import annotations
 
 import json
 import shutil
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from core.demo_data import write_cache  # noqa: E402
 OUT = ROOT / "web"
 APP = OUT / "app"
 STLITE = "1.9.2"
-REQUIREMENTS = ["plotly==5.24.1", "openpyxl"]
+REQUIREMENTS = ["plotly==6.5.0", "openpyxl"]  # 6.x wheel is half the size; narwhals ships with Pyodide
 FILES = (["app.py"] + sorted(f"core/{p.name}" for p in (ROOT / "core").glob("*.py"))
          + ["assets/style.css", "assets/hero.html"]
          + sorted(str(p.relative_to(ROOT)).replace("\\", "/") for p in (ROOT / "data" / "sample").glob("*.csv"))
-         + [f"sample_data/{n}" for n in ("students.csv", "attendance.csv", "test_results.csv", "teacher_timetable.csv")]
+         + [f"sample_data/cache/{n}" for n in ("summary.csv", "marks.csv", "timetable.csv", "log.csv")]
          + sorted(str(p.relative_to(ROOT)).replace("\\", "/") for p in (ROOT / "sample_data" / "templates").glob("*.csv")))
 THEME = {"theme.base": "dark", "theme.primaryColor": "#7C5CFF", "theme.backgroundColor": "#07070D",
          "theme.secondaryBackgroundColor": "#12121D", "theme.textColor": "#E6E7EE", "theme.font": "sans serif",
@@ -31,6 +35,8 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>AttendGuard</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@stlite/browser@__V__/build/stlite.js">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@__V__/build/stlite.css">
 <style>
   html, body { margin: 0; background: #07070D; }
@@ -45,7 +51,7 @@ PAGE = """<!doctype html>
 </head>
 <body>
 <div id="boot"><div style="text-align:center"><div class="ring"></div><b>AttendGuard</b>
-  Starting the app in your browser… (first load takes ~20 seconds)</div></div>
+  Starting the app in your browser… the first visit can take up to a minute</div></div>
 <div id="root"></div>
 <script type="module">
   import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@__V__/build/stlite.js";
@@ -66,8 +72,12 @@ PAGE = """<!doctype html>
 def main() -> None:
     if APP.exists():
         shutil.rmtree(APP)
+    # Ship the processed Full demo tables (~340 KB) instead of the raw 4.7 MB files.
+    write_cache(ROOT / "sample_data", APP / "sample_data" / "cache")
     for rel in FILES:
         dst = APP / rel
+        if dst.exists():
+            continue
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / rel, dst)
     page = (PAGE.replace("__V__", STLITE).replace("__FILES__", json.dumps(FILES))

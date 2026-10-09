@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>AttendGuard</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@stlite/browser@1.9.2/build/stlite.js">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@1.9.2/build/stlite.css">
 <style>
   html, body { margin: 0; background: #07070D; }
@@ -18,12 +20,12 @@
 </head>
 <body>
 <div id="boot"><div style="text-align:center"><div class="ring"></div><b>AttendGuard</b>
-  Starting the app in your browser… (first load takes ~20 seconds)</div></div>
+  Starting the app in your browser… the first visit can take up to a minute</div></div>
 <div id="root"></div>
 <script type="module">
   import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@1.9.2/build/stlite.js";
-  const files = Object.fromEntries(["app.py", "core/__init__.py", "core/ai.py", "core/config.py", "core/demo_data.py", "core/notify.py", "core/risk.py", "core/summary.py", "core/timetable.py", "assets/style.css", "assets/hero.html", "data/sample/attendance.csv", "data/sample/marks.csv", "data/sample/timetable.csv", "sample_data/students.csv", "sample_data/attendance.csv", "sample_data/test_results.csv", "sample_data/teacher_timetable.csv", "sample_data/templates/attendance.csv", "sample_data/templates/attendance_summary.csv", "sample_data/templates/students.csv", "sample_data/templates/teacher_timetable.csv", "sample_data/templates/test_results.csv"].map(f => [f, { url: "./app/" + f }]));
-  mount({ requirements: ["plotly==5.24.1", "openpyxl"], entrypoint: "app.py", files, streamlitConfig: {"theme.base": "dark", "theme.primaryColor": "#7C5CFF", "theme.backgroundColor": "#07070D", "theme.secondaryBackgroundColor": "#12121D", "theme.textColor": "#E6E7EE", "theme.font": "sans serif", "client.toolbarMode": "minimal"} },
+  const files = Object.fromEntries(["app.py", "core/__init__.py", "core/ai.py", "core/config.py", "core/demo_data.py", "core/notify.py", "core/risk.py", "core/summary.py", "core/timetable.py", "assets/style.css", "assets/hero.html", "data/sample/attendance.csv", "data/sample/marks.csv", "data/sample/timetable.csv", "sample_data/cache/summary.csv", "sample_data/cache/marks.csv", "sample_data/cache/timetable.csv", "sample_data/cache/log.csv", "sample_data/templates/attendance.csv", "sample_data/templates/attendance_summary.csv", "sample_data/templates/students.csv", "sample_data/templates/teacher_timetable.csv", "sample_data/templates/test_results.csv"].map(f => [f, { url: "./app/" + f }]));
+  mount({ requirements: ["plotly==6.5.0", "openpyxl"], entrypoint: "app.py", files, streamlitConfig: {"theme.base": "dark", "theme.primaryColor": "#7C5CFF", "theme.backgroundColor": "#07070D", "theme.secondaryBackgroundColor": "#12121D", "theme.textColor": "#E6E7EE", "theme.font": "sans serif", "client.toolbarMode": "minimal"} },
         document.getElementById("root"));
   // Remove the boot screen once the app has rendered its sidebar.
   const boot = document.getElementById("boot");

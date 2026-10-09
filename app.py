@@ -128,7 +128,8 @@ def load_sample(which=DEMOS[0]):
 
 if "students" not in ss:
     # First visit: show the Full demo straight away so every page has data (upload your own any time).
-    load_sample(DEMOS[1] if (FULL_DEMO / "attendance.csv").exists() else DEMOS[0])
+    has_full = (FULL_DEMO / "attendance.csv").exists() or (FULL_DEMO / "cache" / "summary.csv").exists()
+    load_sample(DEMOS[1] if has_full else DEMOS[0])
 
 has_data = "students" in ss
 

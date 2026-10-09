@@ -3,6 +3,7 @@
   "builds": [{ "src": "web/**", "use": "@vercel/static" }],
   "routes": [
     { "src": "/", "dest": "/web/index.html" },
+    { "src": "/app/(.*)", "dest": "/web/app/$1", "headers": { "cache-control": "public, max-age=3600, stale-while-revalidate=86400" } },
     { "src": "/(.*)", "dest": "/web/$1" }
   ]
 }

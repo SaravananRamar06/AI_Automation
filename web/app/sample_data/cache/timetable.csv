@@ -1,0 +1,251 @@
+teacher,teacher_email,department,subject,day,slot
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Software Engineering,Mon,11:15-12:15
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Theory of Computation,Mon,12:15-13:15
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Theory of Computation,Tue,11:15-12:15
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Data Structures,Tue,15:00-16:00
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Theory of Computation,Wed,12:15-13:15
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Software Engineering,Wed,15:00-16:00
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Theory of Computation,Thu,09:00-10:00
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Data Structures,Thu,10:00-11:00
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Data Structures,Thu,11:15-12:15
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Data Structures,Thu,12:15-13:15
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Software Engineering,Thu,14:00-15:00
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Software Engineering,Fri,09:00-10:00
+Dr. Priya Sharma,priya.t01@example.edu,CSE,Data Structures,Fri,11:15-12:15
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Theory of Computation,Mon,09:00-10:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Database Systems,Mon,10:00-11:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Data Structures,Tue,09:00-10:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Data Structures,Tue,10:00-11:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Database Systems,Tue,12:15-13:15
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Theory of Computation,Tue,15:00-16:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Database Systems,Wed,10:00-11:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Theory of Computation,Wed,14:00-15:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Data Structures,Thu,10:00-11:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Data Structures,Thu,11:15-12:15
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Theory of Computation,Thu,12:15-13:15
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Database Systems,Thu,15:00-16:00
+Prof. Arjun Pillai,arjun.t02@example.edu,CSE,Data Structures,Fri,14:00-15:00
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Operating Systems,Mon,09:00-10:00
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Database Systems,Mon,10:00-11:00
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Database Systems,Tue,12:15-13:15
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Operating Systems,Tue,14:00-15:00
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Operating Systems,Wed,09:00-10:00
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Database Systems,Wed,12:15-13:15
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Operating Systems,Fri,10:00-11:00
+Dr. Kavitha Menon,kavitha.t03@example.edu,CSE,Database Systems,Fri,15:00-16:00
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Operating Systems,Mon,14:00-15:00
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Computer Networks,Mon,15:00-16:00
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Computer Networks,Tue,10:00-11:00
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Operating Systems,Tue,11:15-12:15
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Computer Networks,Wed,11:15-12:15
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Operating Systems,Thu,09:00-10:00
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Computer Networks,Fri,09:00-10:00
+Dr. Rahul Chandran,rahul.t04@example.edu,CSE,Operating Systems,Fri,10:00-11:00
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Computer Networks,Mon,12:15-13:15
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Software Engineering,Tue,09:00-10:00
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Computer Networks,Tue,14:00-15:00
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Computer Networks,Wed,11:15-12:15
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Software Engineering,Wed,15:00-16:00
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Software Engineering,Thu,14:00-15:00
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Computer Networks,Fri,12:15-13:15
+Dr. Suresh Balaji,suresh.t05@example.edu,CSE,Software Engineering,Fri,14:00-15:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Electromagnetics,Mon,09:00-10:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Signals & Systems,Tue,11:15-12:15
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Signals & Systems,Tue,12:15-13:15
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Control Systems,Tue,14:00-15:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Electromagnetics,Wed,10:00-11:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Control Systems,Wed,15:00-16:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Electromagnetics,Thu,10:00-11:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Signals & Systems,Thu,11:15-12:15
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Signals & Systems,Thu,12:15-13:15
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Control Systems,Thu,15:00-16:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Electromagnetics,Fri,10:00-11:00
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Signals & Systems,Fri,11:15-12:15
+Prof. Anitha Iyer,anitha.t06@example.edu,ECE,Control Systems,Fri,12:15-13:15
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Electromagnetics,Mon,11:15-12:15
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Digital Electronics,Mon,12:15-13:15
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Electromagnetics,Tue,09:00-10:00
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Signals & Systems,Tue,11:15-12:15
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Signals & Systems,Tue,12:15-13:15
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Digital Electronics,Tue,15:00-16:00
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Digital Electronics,Thu,09:00-10:00
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Signals & Systems,Thu,10:00-11:00
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Signals & Systems,Thu,11:15-12:15
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Electromagnetics,Thu,14:00-15:00
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Signals & Systems,Fri,10:00-11:00
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Electromagnetics,Fri,11:15-12:15
+Dr. Vikram Reddy,vikram.t07@example.edu,ECE,Digital Electronics,Fri,12:15-13:15
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Digital Electronics,Mon,12:15-13:15
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Microprocessors,Mon,14:00-15:00
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Digital Electronics,Tue,10:00-11:00
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Digital Electronics,Wed,10:00-11:00
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Microprocessors,Wed,11:15-12:15
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Microprocessors,Thu,14:00-15:00
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Microprocessors,Fri,09:00-10:00
+Dr. Divya Pillai,divya.t08@example.edu,ECE,Digital Electronics,Fri,14:00-15:00
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Microprocessors,Mon,10:00-11:00
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Communication Theory,Mon,15:00-16:00
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Communication Theory,Tue,10:00-11:00
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Microprocessors,Tue,15:00-16:00
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Microprocessors,Thu,12:15-13:15
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Communication Theory,Thu,15:00-16:00
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Microprocessors,Fri,09:00-10:00
+Dr. Ganesh Chandran,ganesh.t09@example.edu,ECE,Communication Theory,Fri,15:00-16:00
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Control Systems,Mon,11:15-12:15
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Communication Theory,Mon,14:00-15:00
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Control Systems,Tue,14:00-15:00
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Communication Theory,Wed,12:15-13:15
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Control Systems,Wed,14:00-15:00
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Communication Theory,Thu,09:00-10:00
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Control Systems,Fri,14:00-15:00
+Dr. Lakshmi Chandran,lakshmi.t10@example.edu,ECE,Communication Theory,Fri,15:00-16:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Heat Transfer,Mon,09:00-10:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Kinematics of Machines,Mon,12:15-13:15
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Kinematics of Machines,Tue,09:00-10:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Thermodynamics,Tue,14:00-15:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Thermodynamics,Tue,15:00-16:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Heat Transfer,Wed,10:00-11:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Kinematics of Machines,Wed,15:00-16:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Heat Transfer,Thu,09:00-10:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Thermodynamics,Thu,11:15-12:15
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Kinematics of Machines,Thu,15:00-16:00
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Thermodynamics,Fri,11:15-12:15
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Thermodynamics,Fri,12:15-13:15
+Prof. Karthik Pillai,karthik.t11@example.edu,ME,Heat Transfer,Fri,15:00-16:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Kinematics of Machines,Mon,14:00-15:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Thermodynamics,Tue,09:00-10:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Thermodynamics,Tue,10:00-11:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Fluid Mechanics,Tue,12:15-13:15
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Fluid Mechanics,Wed,12:15-13:15
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Kinematics of Machines,Wed,14:00-15:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Kinematics of Machines,Thu,11:15-12:15
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Thermodynamics,Thu,12:15-13:15
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Fluid Mechanics,Thu,14:00-15:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Kinematics of Machines,Fri,09:00-10:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Thermodynamics,Fri,10:00-11:00
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Thermodynamics,Fri,12:15-13:15
+Prof. Sneha Balaji,sneha.t12@example.edu,ME,Fluid Mechanics,Fri,15:00-16:00
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Fluid Mechanics,Mon,10:00-11:00
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Machine Design,Mon,11:15-12:15
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Machine Design,Tue,10:00-11:00
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Fluid Mechanics,Tue,11:15-12:15
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Machine Design,Wed,11:15-12:15
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Fluid Mechanics,Wed,12:15-13:15
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Fluid Mechanics,Thu,10:00-11:00
+Prof. Ramesh Sharma,ramesh.t13@example.edu,ME,Machine Design,Fri,10:00-11:00
+Dr. Meena Bose,meena.t14@example.edu,ME,Manufacturing Technology,Mon,15:00-16:00
+Dr. Meena Bose,meena.t14@example.edu,ME,Machine Design,Tue,12:15-13:15
+Dr. Meena Bose,meena.t14@example.edu,ME,Manufacturing Technology,Wed,09:00-10:00
+Dr. Meena Bose,meena.t14@example.edu,ME,Machine Design,Wed,11:15-12:15
+Dr. Meena Bose,meena.t14@example.edu,ME,Manufacturing Technology,Thu,10:00-11:00
+Dr. Meena Bose,meena.t14@example.edu,ME,Machine Design,Thu,14:00-15:00
+Dr. Meena Bose,meena.t14@example.edu,ME,Manufacturing Technology,Fri,09:00-10:00
+Dr. Meena Bose,meena.t14@example.edu,ME,Machine Design,Fri,14:00-15:00
+Prof. Anand Gupta,anand.t15@example.edu,ME,Heat Transfer,Mon,09:00-10:00
+Prof. Anand Gupta,anand.t15@example.edu,ME,Manufacturing Technology,Mon,11:15-12:15
+Prof. Anand Gupta,anand.t15@example.edu,ME,Heat Transfer,Tue,11:15-12:15
+Prof. Anand Gupta,anand.t15@example.edu,ME,Manufacturing Technology,Tue,14:00-15:00
+Prof. Anand Gupta,anand.t15@example.edu,ME,Heat Transfer,Wed,14:00-15:00
+Prof. Anand Gupta,anand.t15@example.edu,ME,Heat Transfer,Thu,09:00-10:00
+Prof. Anand Gupta,anand.t15@example.edu,ME,Manufacturing Technology,Thu,15:00-16:00
+Prof. Anand Gupta,anand.t15@example.edu,ME,Manufacturing Technology,Fri,11:15-12:15
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Circuit Theory,Mon,09:00-10:00
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Measurements & Instrumentation,Mon,12:15-13:15
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Circuit Theory,Tue,09:00-10:00
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Measurements & Instrumentation,Tue,14:00-15:00
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Electrical Machines,Tue,15:00-16:00
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Circuit Theory,Wed,14:00-15:00
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Measurements & Instrumentation,Wed,15:00-16:00
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Electrical Machines,Thu,11:15-12:15
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Electrical Machines,Thu,12:15-13:15
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Measurements & Instrumentation,Fri,11:15-12:15
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Electrical Machines,Fri,12:15-13:15
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Circuit Theory,Fri,14:00-15:00
+Dr. Padma Kumar,padma.t16@example.edu,EEE,Electrical Machines,Fri,15:00-16:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Circuit Theory,Mon,14:00-15:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Power Systems,Mon,15:00-16:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Electrical Machines,Tue,09:00-10:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Electrical Machines,Tue,10:00-11:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Circuit Theory,Tue,11:15-12:15
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Power Systems,Tue,12:15-13:15
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Circuit Theory,Wed,11:15-12:15
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Power Systems,Wed,15:00-16:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Power Systems,Thu,09:00-10:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Circuit Theory,Thu,11:15-12:15
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Electrical Machines,Thu,14:00-15:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Electrical Machines,Thu,15:00-16:00
+Prof. Srinivasan Nair,srinivasan.t17@example.edu,EEE,Electrical Machines,Fri,09:00-10:00
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Electronics,Mon,11:15-12:15
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Systems,Mon,15:00-16:00
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Electronics,Wed,11:15-12:15
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Systems,Wed,14:00-15:00
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Systems,Thu,12:15-13:15
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Electronics,Thu,15:00-16:00
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Electronics,Fri,10:00-11:00
+Dr. Geetha Das,geetha.t18@example.edu,EEE,Power Systems,Fri,15:00-16:00
+Dr. Murali Patel,murali.t19@example.edu,EEE,Power Electronics,Mon,09:00-10:00
+Dr. Murali Patel,murali.t19@example.edu,EEE,Control Engineering,Mon,12:15-13:15
+Dr. Murali Patel,murali.t19@example.edu,EEE,Power Electronics,Tue,12:15-13:15
+Dr. Murali Patel,murali.t19@example.edu,EEE,Control Engineering,Wed,10:00-11:00
+Dr. Murali Patel,murali.t19@example.edu,EEE,Power Electronics,Thu,09:00-10:00
+Dr. Murali Patel,murali.t19@example.edu,EEE,Control Engineering,Thu,10:00-11:00
+Dr. Murali Patel,murali.t19@example.edu,EEE,Control Engineering,Fri,09:00-10:00
+Dr. Murali Patel,murali.t19@example.edu,EEE,Power Electronics,Fri,14:00-15:00
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Control Engineering,Mon,10:00-11:00
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Measurements & Instrumentation,Mon,14:00-15:00
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Measurements & Instrumentation,Tue,11:15-12:15
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Measurements & Instrumentation,Wed,09:00-10:00
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Control Engineering,Wed,10:00-11:00
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Control Engineering,Thu,10:00-11:00
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Control Engineering,Fri,10:00-11:00
+Prof. Uma Mishra,uma.t20@example.edu,EEE,Measurements & Instrumentation,Fri,11:15-12:15
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Environmental Engineering,Mon,11:15-12:15
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Concrete Technology,Mon,12:15-13:15
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Environmental Engineering,Tue,09:00-10:00
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Concrete Technology,Tue,10:00-11:00
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Structural Analysis,Tue,11:15-12:15
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Structural Analysis,Tue,15:00-16:00
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Environmental Engineering,Wed,10:00-11:00
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Concrete Technology,Wed,12:15-13:15
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Structural Analysis,Thu,10:00-11:00
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Structural Analysis,Thu,12:15-13:15
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Environmental Engineering,Thu,15:00-16:00
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Structural Analysis,Fri,10:00-11:00
+Prof. Rajesh Iyer,rajesh.t21@example.edu,Civil,Concrete Technology,Fri,11:15-12:15
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Geotechnical Engineering,Mon,09:00-10:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Concrete Technology,Mon,14:00-15:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Geotechnical Engineering,Tue,09:00-10:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Structural Analysis,Tue,10:00-11:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Concrete Technology,Tue,12:15-13:15
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Concrete Technology,Wed,11:15-12:15
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Geotechnical Engineering,Wed,15:00-16:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Concrete Technology,Thu,09:00-10:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Structural Analysis,Thu,12:15-13:15
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Structural Analysis,Thu,14:00-15:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Structural Analysis,Fri,09:00-10:00
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Geotechnical Engineering,Fri,12:15-13:15
+Prof. Kalpana Chandran,kalpana.t22@example.edu,Civil,Structural Analysis,Fri,14:00-15:00
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Surveying,Mon,11:15-12:15
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Geotechnical Engineering,Mon,12:15-13:15
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Geotechnical Engineering,Tue,11:15-12:15
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Surveying,Wed,11:15-12:15
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Geotechnical Engineering,Wed,12:15-13:15
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Surveying,Thu,14:00-15:00
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Surveying,Fri,14:00-15:00
+Dr. Senthil Das,senthil.t23@example.edu,Civil,Geotechnical Engineering,Fri,15:00-16:00
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Surveying,Mon,10:00-11:00
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Transportation Engineering,Mon,15:00-16:00
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Surveying,Tue,14:00-15:00
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Transportation Engineering,Wed,10:00-11:00
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Transportation Engineering,Thu,09:00-10:00
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Surveying,Thu,11:15-12:15
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Surveying,Fri,12:15-13:15
+Dr. Revathi Chandran,revathi.t24@example.edu,Civil,Transportation Engineering,Fri,15:00-16:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Transportation Engineering,Mon,15:00-16:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Environmental Engineering,Tue,14:00-15:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Environmental Engineering,Wed,09:00-10:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Transportation Engineering,Wed,15:00-16:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Transportation Engineering,Thu,10:00-11:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Environmental Engineering,Thu,15:00-16:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Environmental Engineering,Fri,09:00-10:00
+Prof. Balaji Mishra,balaji.t25@example.edu,Civil,Transportation Engineering,Fri,10:00-11:00

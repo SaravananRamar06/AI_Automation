@@ -1,0 +1,6 @@
+file,fix,rows
+attendance.csv,Normalised roll_no (trimmed spaces / upper-cased),1
+attendance.csv,Parsed DD-MM-YYYY dates,1
+attendance.csv,Dropped exact duplicate rows,1
+test_results.csv,Skipped rows with missing marks,1
+test_results.csv,Skipped rows with unknown roll_no,1
